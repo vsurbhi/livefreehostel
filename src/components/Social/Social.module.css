@@ -1,0 +1,291 @@
+.section {
+  background: var(--surface);
+  padding: 80px 0;
+  margin: 0;
+}
+
+.previewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 28px 24px 40px;
+}
+
+.sliderWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: min(1280px, calc(100% - 48px));
+  max-width: 100%;
+}
+
+/* clips the peeking cards on both sides */
+.previewViewport {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.previewGrid {
+  --gap: clamp(16px, 2.2vw, 26px);
+  display: flex;
+  gap: var(--gap);
+  /* centering an overflowing flex row clips equally on both sides —
+     card size below is untouched by this, only the crop amount changes */
+  justify-content: center;
+}
+
+.previewBox {
+  /* card size — fixed, independent of crop amount */
+  flex: 0 0 calc((100% - 4 * var(--gap)) / 3.6);
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  position: relative;
+  background: var(--surface-alt);
+  border: none;
+  padding: 0;
+}
+
+.previewBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.previewGrid.slide-next .previewBox img {
+  animation: slideInRight 0.45s ease-in-out;
+}
+
+.previewGrid.slide-prev .previewBox img {
+  animation: slideInLeft 0.45s ease-in-out;
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(30px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.previewBox:hover {
+  transform: scale(1.04) translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.24);
+}
+
+/* === Arrow Buttons === */
+.arrowBtn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #222;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.arrowBtn:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(45, 42, 36, 0.15);
+  transform: scale(1.04);
+}
+
+.arrowBtn:active {
+  transform: scale(0.95);
+}
+
+/* === Progress Bar — removed (hidden) === */
+.progressBar {
+  display: none;
+}
+
+.progressFill {
+  display: none;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 1001;
+}
+
+.closeBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.modalContent {
+  width: 90%;
+  max-width: 900px;
+  height: 80vh;
+  max-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.modalContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  animation: fadeSlideIn 0.4s ease-in-out;
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.modalBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 1001;
+}
+
+.modalBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.prevBtn { left: 20px; }
+.nextBtn { right: 20px; }
+
+.slideCounter {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  font-weight: 600;
+  z-index: 1001;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .previewBox {
+    /* card size — fixed, independent of crop amount */
+    flex: 0 0 calc((100% - 3 * var(--gap)) / 2.6);
+  }
+}
+
+@media (max-width: 768px) {
+  .section { padding: 56px 0; }
+
+  .sliderWrapper {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .arrowBtn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .previewBox {
+    border-radius: 12px;
+  }
+
+  .modal { padding: 12px; }
+
+  .modalContent {
+    max-height: 400px;
+    width: 100%;
+  }
+
+  .modalBtn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .prevBtn { left: 6px; }
+  .nextBtn { right: 6px; }
+
+  .closeBtn {
+    top: 12px;
+    right: 12px;
+    width: 38px;
+    height: 38px;
+  }
+
+  .slideCounter { bottom: 12px; font-size: 0.85rem; }
+}
+
+@media (max-width: 520px) {
+  .previewBox {
+    /* card size — fixed, independent of crop amount */
+    flex: 0 0 calc((100% - 2 * var(--gap)) / 1.6);
+  }
+
+  .previewContainer { padding: 20px 12px 32px; gap: 18px; }
+
+  .modalBtn {
+    width: 36px;
+    height: 36px;
+  }
+  .modalContent img { object-fit: contain; }
+}
+
+@media (max-width: 340px) {
+  .arrowBtn { width: 34px; height: 34px; }
+  .sliderWrapper { gap: 8px; }
+}

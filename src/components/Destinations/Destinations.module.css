@@ -1,0 +1,208 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* .card {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 3 / 4;
+  cursor: pointer;
+  isolation: isolate;
+  transition: var(--transition);
+} */
+
+/* .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.card:hover .img { transform: scale(1.07); }
+.card:hover .overlay { background: rgba(0,0,0,0.45); }
+.card:hover .arrow { opacity: 1; transform: translateX(0); } */
+
+/* .img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.55s ease, filter 0.35s ease;
+  filter: brightness(0.98) contrast(0.96) saturate(0.94) blur(0.4px);
+} */
+
+/* .grid > :first-child .img {
+  filter: brightness(0.94) contrast(0.9) saturate(0.85) blur(0.6px);
+} */
+
+.card {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 3 / 4;
+  cursor: pointer;
+  isolation: isolate;
+  transition: transform 0.4s ease; /* only transform here now */
+}
+.card:hover { transform: translateY(-6px); }
+.card:hover .img { transform: scale(1.07); }
+.card:hover .overlay { background: rgba(0,0,0,0.45); }
+.card:hover .shadowLayer { opacity: 1; } /* NEW */
+.card:hover .arrow { opacity: 1; transform: translateX(0); }
+
+/* NEW — filter lives on a static, non-animating wrapper */
+.imgFiltered {
+  position: absolute;
+  inset: 0;
+  filter: brightness(0.98) contrast(0.96) saturate(0.94) blur(0.4px);
+  transition: filter 0.35s ease;
+}
+
+/* .img now ONLY handles the scale transform — no filter here */
+.img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: translateZ(0); /* forces its own compositor layer */
+  transition: transform 0.55s cubic-bezier(0.2, 0.9, 0.4, 1);
+  will-change: transform;
+}
+
+.grid > :first-child .imgFiltered {
+  filter: brightness(0.94) contrast(0.9) saturate(0.85) blur(0.6px);
+}
+
+/* NEW — box-shadow moved to a pseudo-layer that fades via opacity instead */
+.shadowLayer {
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Replace with real images → see siteData.js comments */
+.imgFallback {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #c0a882, #8c7b6b);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.78) 0%,
+    rgba(0,0,0,0.26) 55%,
+    rgba(0,0,0,0.08) 100%
+  );
+  transition: background 0.35s ease;
+}
+
+/* Buttons row — ab .card ka direct child hai (JSX me), top pe fixed */
+.btnRow {
+  position: absolute;
+  top: clamp(18px, 3.5vw, 28px);
+  left: clamp(18px, 3.5vw, 28px);
+  right: clamp(18px, 3.5vw, 28px);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: clamp(20px, 4vw, 32px) clamp(18px, 3.5vw, 28px);
+  color: #fff;
+  z-index: 1;
+}
+
+.tagline {
+  font-size: clamp(0.8rem, 1.6vw, 1rem);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-light);
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Only the city name part (Rishikesh / Dehradun / Varanasi) — bigger + bolder */
+.cityName {
+  font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+  font-weight: 900;
+  letter-spacing: 1px;
+   color: #fff;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.78);
+  line-height: 1.55;
+  margin-bottom: 0;
+}
+
+.exploreBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(255,255,255,0.18);
+  border: 1.5px solid rgba(255,255,255,0.35);
+  border-radius: var(--radius-full);
+  padding: 8px 16px;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: var(--transition-fast);
+  font-family: var(--font-body);
+}
+.exploreBtn:hover { background: rgba(255,255,255,0.3); }
+
+.bookBtn {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  background: #fff;
+  border: none;
+  border-radius: var(--radius-full);
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  font-family: var(--font-body);
+}
+.bookBtn:hover { background: var(--primary-light); color: #fff; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .grid > :last-child { grid-column: 1 / -1; aspect-ratio: 16/9; }
+}
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+  .grid > :last-child { grid-column: auto; aspect-ratio: 3/4; }
+  .card { aspect-ratio: 4/5; }
+}

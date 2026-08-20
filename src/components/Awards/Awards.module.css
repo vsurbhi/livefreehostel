@@ -1,0 +1,103 @@
+/* ─── Section ─── */
+
+.section {
+  background: var(--bg);
+  overflow: hidden;
+  
+}
+
+/* ─── Marquee Wrapper ─── */
+.marqueeWrap {
+  width: 100%;
+  overflow: hidden;
+  /* optional fade‑out edges – uncomment if needed */
+  /* -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent); */
+  /* mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent); */
+}
+
+/* ─── Moving Track ─── */
+.marqueeTrack {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  animation: scrollTrail 28s linear infinite;
+  will-change: transform;
+}
+
+/* Pause on hover */
+.marqueeWrap:hover .marqueeTrack {
+  animation-play-state: paused;
+}
+
+/* ─── Individual Card ─── */
+.card {
+  flex: 0 0 auto;
+  width: 220px;
+  height: 220px;
+  border-radius: var(--radius-lg);
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Card colour variants */
+/* .light {
+  background: #f5f0eb;
+  color: var(--text);
+}
+.blue {
+  background: linear-gradient(135deg, #0d2137, #163352);
+  color: #fff;
+}
+.dark {
+  background: linear-gradient(135deg, #1e1b1a, #2c2826);
+  color: var(--gold);
+} */
+
+/* Card contents */
+.emoji {
+  font-size: 2rem;
+  display: block;
+}
+.badgeImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* ─── Keyframes ─── */
+/* With 3 copies, move by 1/3 of total width */
+@keyframes scrollTrail {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 900px) {
+  .card {
+    width: 180px;
+    height: 180px;
+    padding: 12px;
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+  }
+  .marqueeTrack {
+    gap: 12px;
+  }
+}

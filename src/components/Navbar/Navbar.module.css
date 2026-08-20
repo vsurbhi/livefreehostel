@@ -1,0 +1,406 @@
+/* --- Navbar Variables --- */
+:root {
+  --header-bg: rgba(253, 246, 236, 0.92);
+  --header-bg-scrolled: rgba(255, 250, 244, 0.85);
+  --nav-text: #24351f;
+  --nav-accent: #cf3714; /* Matches your primary from previous code */
+  --nav-hover-bg: rgba(207, 55, 20, 0.08);
+  
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --nav-shadow: 0 10px 30px -10px rgba(47, 34, 24, 0.1);
+  --nav-shadow-scrolled: 0 20px 40px -15px rgba(40, 52, 35, 0.15);
+}
+
+/* ============================================================
+   NAVBAR CONTAINER
+   ============================================================ */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: var(--header-bg);
+  backdrop-filter: blur(16px) saturate(120%);
+  -webkit-backdrop-filter: blur(16px) saturate(120%);
+  border-bottom: 1px solid rgba(69, 91, 62, 0.08);
+  transition: all 0.4s var(--ease-out-expo);
+}
+
+/* Scrolled State */
+.header.scrolled {
+  background: var(--header-bg-scrolled);
+  padding: 5px 0; /* Shrinks the header slightly on scroll */
+  box-shadow: var(--nav-shadow-scrolled);
+  border-bottom-color: rgba(75, 104, 63, 0.15);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 76px;
+  padding: 0 clamp(24px, 5vw, 60px);
+}
+
+/* --- Logo --- */
+.logo {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.logoImg {
+  height: clamp(42px, 5vw, 56px);
+  width: auto;
+  transition: transform 0.4s var(--ease-out-expo);
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.05));
+}
+
+.logo:hover .logoImg {
+  transform: scale(1.05) translateY(-2px);
+}
+
+/* --- Desktop Navigation --- */
+.desktopNav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: clamp(10px, 1.5vw, 26px);
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  padding: 10px 8px;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--nav-text);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+/* Modern Hover Underline Effect */
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--nav-accent);
+  transition: all 0.3s var(--ease-out-expo);
+  transform: translateX(-50%);
+}
+
+.navLink:hover {
+  color: var(--nav-accent);
+}
+
+.navLink:hover::after,
+.navLink.active::after {
+  width: 40%;
+}
+
+.navLink.active {
+  color: var(--nav-text);
+}
+
+/* --- Dropdown Menus --- */
+.dropdown {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  min-width: 190px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 18px 40px -14px rgba(0,0,0,0.18);
+  border: 1px solid rgba(0,0,0,0.05);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.navItem:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 9px;
+  color: var(--nav-text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+.dropdownItemName {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.dropdownItem:hover {
+  background: var(--nav-hover-bg);
+  color: var(--nav-accent);
+  transform: translateX(5px);
+}
+
+/* --- CTA Button (Cleaned up, no !important) --- */
+.ctaBtn {
+  background: linear-gradient(135deg, #f28c38 0%, #e85d3a 100%);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -5px rgba(232, 93, 58, 0.4);
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.ctaBtn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 15px 30px -8px rgba(232, 93, 58, 0.5);
+  filter: brightness(1.1);
+}
+
+/* --- Hamburger Menu --- */
+.hamburger {
+  display: none;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.05);
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1150;
+  flex-shrink: 0;
+}
+
+.hamburger span {
+  width: 22px;
+  height: 2px;
+  background: var(--nav-text);
+  border-radius: 2px;
+  transition: 0.3s var(--ease-out-expo);
+}
+
+/* X icon when open */
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* --- Mobile overlay (dims page behind drawer) --- */
+.mobileOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 16, 12, 0.45);
+  backdrop-filter: blur(2px);
+  z-index: 1090;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s var(--ease-out-expo), visibility 0.35s;
+}
+.mobileOverlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* --- Mobile Nav Drawer --- */
+.mobileNav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: min(320px, 85vw);
+  height: 100vh;
+  height: 100dvh;
+  background: #fff;
+  z-index: 1100;
+  padding: 20px 20px 32px;
+  transition: right 0.5s var(--ease-out-expo);
+  box-shadow: -10px 0 40px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobileNav.open {
+  right: 0;
+}
+
+.mobileBackBtn {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  min-height: 44px;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #8a7d72;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  width: 100%;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.mobileBackBtn:active {
+  opacity: 0.6;
+}
+
+.mobileNavLink {
+  min-height: 44px;
+  padding: 14px 16px;
+  font-size: clamp(0.95rem, 4vw, 1.1rem);
+  font-weight: 700;
+  color: var(--nav-text);
+  text-decoration: none;
+  background: #fbf4ec;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.mobileNavLink.active {
+  color: var(--nav-accent);
+  background: var(--nav-hover-bg);
+}
+
+.mobileNavLink.open {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* --- Mobile accordion submenu --- */
+.mobileSubItems {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+  padding: 6px 4px 4px 12px;
+}
+
+.mobileSubItem {
+  min-height: 44px;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--nav-text);
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.mobileSubItem.active {
+  color: var(--nav-accent);
+  border-color: var(--nav-accent);
+  background: var(--nav-hover-bg);
+}
+
+.mobileDivider {
+  height: 1px;
+  background: rgba(0,0,0,0.08);
+  margin: 8px 0;
+}
+
+.mobileCtaBtn {
+  width: 100%;
+  justify-content: center;
+  min-height: 48px;
+  margin-top: 4px;
+}
+
+/* --- Dropdown divider (About/Properties menus) --- */
+.dropdownDivider {
+  height: 1px;
+  background: rgba(0,0,0,0.06);
+  margin: 4px 6px;
+}
+
+.dropdownInner {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdownItemText {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Responsive Breakpoints --- */
+@media (max-width: 1024px) {
+  .desktopNav, .ctaBtn {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .topbar {
+    min-height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobileNav {
+    width: 100%; /* Full screen on small mobile */
+  }
+}
+
+@media (max-width: 340px) {
+  .topbar { padding: 0 clamp(14px, 4vw, 24px); }
+  .logoImg { height: 38px; }
+}

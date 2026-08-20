@@ -1,0 +1,229 @@
+/* ============================================================
+   DestinationPage — responsive layout classes.
+   The page itself is written with inline styles (colors, one-off
+   type). These classes exist only for the grids/layouts that must
+   change shape across breakpoints, since inline styles can't hold
+   media queries.
+   ============================================================ */
+
+/* ---------- Photo gallery header ---------- */
+.galleryWrap {
+  padding-top: 76px;
+  background: transparent;
+}
+@media (max-width: 1024px) {
+  .galleryWrap { padding-top: 70px; }
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: 1.65fr 1fr;
+  gap: 3px;
+  height: 500px;
+}
+.galleryEmpty {
+  height: 500px;
+  background: linear-gradient(135deg, #fdf0ea 0%, #fce4d6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.galleryMainBox {
+  overflow: hidden;
+  cursor: pointer;
+  height: 100%;
+  position: relative; /* add this */
+}
+.gallerySub {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3px;
+}
+.galleryImgBox {
+  overflow: hidden;
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+}
+.galleryImgBox img,
+.galleryMainBox img {
+   position: absolute;   /* add this */
+  inset: 0;
+  transition: transform 0.4s ease;
+}
+.galleryImgBox:hover img,
+.galleryMainBox:hover img {
+  transform: scale(1.05);
+}
+.seeAllBtn {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+@media (max-width: 1024px) {
+  .galleryGrid, .galleryEmpty { height: 420px; }
+}
+@media (max-width: 700px) {
+  .galleryGrid { grid-template-columns: 1fr; height: auto; }
+  .galleryMainBox { aspect-ratio: 4 / 3; }
+  .gallerySub { aspect-ratio: 16 / 7; }
+  .galleryEmpty { height: 280px; }
+}
+@media (max-width: 420px) {
+  .gallerySub { aspect-ratio: 4 / 3; }
+  .seeAllBtn { bottom: 10px; right: 10px; padding: 8px 14px !important; font-size: 0.72rem !important; }
+}
+
+/* ---------- Good to Know check-in/out grid ---------- */
+.goodToKnowGrid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  align-items: center;
+}
+@media (max-width: 420px) {
+  .goodToKnowGrid { grid-template-columns: 1fr; gap: 16px; }
+  .goodToKnowGrid > div { padding: 0 !important; }
+  .goodToKnowDivider { display: none; }
+}
+
+/* ---------- Room card (Select Room) ---------- */
+.roomCard {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  min-height: 200px;
+  padding: 16px;
+  gap: 20px;
+  overflow: hidden;
+}
+.roomImageWrap {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.roomBody {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.roomHeadRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 640px) {
+  .roomCard { grid-template-columns: 1fr; padding: 12px; gap: 14px; }
+  .roomImageWrap { aspect-ratio: 16 / 10; }
+  .roomBody { padding: 4px 6px 10px; }
+  .roomHeadRow { flex-wrap: wrap; }
+}
+@media (max-width: 400px) {
+  .roomImageWrap { aspect-ratio: 4 / 3; }
+}
+
+.roomDetailsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 8px 24px;
+}
+@media (max-width: 420px) {
+  .roomDetailsGrid { grid-template-columns: 1fr 1fr; gap: 8px 12px; }
+}
+@media (max-width: 320px) {
+  .roomDetailsGrid { grid-template-columns: 1fr; }
+}
+
+/* ---------- Features (chips wrap naturally already, no grid needed) ---------- */
+
+/* ---------- Characteristics ---------- */
+.charGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 32px 24px;
+}
+@media (max-width: 1024px) {
+  .charGrid { grid-template-columns: repeat(3, 1fr); gap: 28px 20px; }
+}
+@media (max-width: 640px) {
+  .charGrid { grid-template-columns: repeat(2, 1fr); gap: 24px 18px; }
+}
+@media (max-width: 380px) {
+  .charGrid { grid-template-columns: 1fr; gap: 22px; }
+}
+
+/* ---------- How to Reach Us ---------- */
+.mapFrameWrap {
+  width: 100%;
+  height: 420px;
+}
+.mapInfoCard {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  max-width: 360px;
+  /* width: 100%; */
+  max-height: calc(100% - 48px);
+  overflow: auto;
+}
+.directionsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .directionsGrid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 700px) {
+  .mapFrameWrap { height: 320px; }
+  .mapInfoCard {
+    position: static;
+    max-width: 100%;
+    max-height: none;
+    margin-top: 3px;
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 480px) {
+  .directionsGrid { grid-template-columns: 1fr; }
+}
+
+/* ---------- Travel Itinerary ---------- */
+.itineraryGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 64px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .itineraryGrid { grid-template-columns: 1fr; gap: 36px; }
+}
+
+/* ---------- Must Reads ---------- */
+.mustReadsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 900px) {
+  .mustReadsGrid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .mustReadsGrid { grid-template-columns: 1fr; }
+}
+
+/* ---------- LightBox (touch target polish) ---------- */
+@media (max-width: 560px) {
+  .lightboxNavBtn { width: 34px !important; height: 34px !important; }
+  .lightboxThumb { width: 60px !important; height: 60px !important; }
+}

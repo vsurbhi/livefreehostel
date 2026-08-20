@@ -1,0 +1,526 @@
+.page {
+  --page-bg: #f7f5ef;
+  --paper: #fff;
+  --ink: #191512;
+  --muted: #6f6861;
+  --line: rgba(25, 21, 18, 0.08);
+  --orange: #df5b31;
+  --shadow: 0 24px 58px rgba(30, 22, 15, 0.11);
+
+  background: var(--page-bg);
+  color: var(--ink);
+  overflow: hidden;
+}
+
+.container {
+  width: min(100% - 56px, 1280px);
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  min-height: 690px;
+  display: flex;
+  align-items: center;
+  background-position: center top;
+  background-size: cover;
+  margin-top: -1px;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(16, 13, 11, 0.9) 0%, rgba(16, 13, 11, 0.72) 38%, rgba(16, 13, 11, 0.34) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(16, 13, 11, 0) 18%);
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+  width: min(100% - 56px, 1280px);
+  margin: 0 auto;
+  padding-top: 76px;
+}
+
+.heroCopy {
+  max-width: 580px;
+}
+
+.heroLabel,
+.eyebrow {
+  display: inline-block;
+  color: var(--orange);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.heroLabel {
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.hero h1,
+.sectionHead h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.13;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: clamp(3.4rem, 7vw, 5.8rem);
+  margin-bottom: 18px;
+}
+
+.hero p {
+  max-width: 520px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.03rem;
+  line-height: 1.75;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.primaryBtn,
+.secondaryBtn,
+.activityCard button,
+.roomStrip button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.primaryBtn {
+  padding: 0 32px;
+  background: linear-gradient(120deg, #f06935, #d94321);
+  color: #fff;
+  box-shadow: 0 18px 38px rgba(223, 91, 49, 0.3);
+}
+
+.secondaryBtn {
+  padding: 0 30px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.primaryBtn:hover,
+.secondaryBtn:hover,
+.activityCard button:hover,
+.roomStrip button:hover {
+  transform: translateY(-2px);
+}
+
+.stats {
+  display: flex;
+  gap: 14px;
+  margin-top: 84px;
+  
+}
+
+.stats div {
+  width: 132px;
+  height: 92px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 4px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(9px);
+}
+
+.stats strong {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.stats span {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.section {
+  padding: clamp(78px, 9vw, 126px) 0;
+}
+
+.sectionHead {
+  max-width: 720px;
+  margin-bottom: 44px;
+}
+
+.sectionHead h2 {
+  margin-top: 14px;
+  color: var(--text);
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.activityGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.activityCard {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 18px 40px rgba(30, 22, 15, 0.07);
+}
+
+.cardImage {
+  height: 205px;
+  overflow: hidden;
+  background: #ddd7cf;
+}
+
+.cardImage img,
+.galleryItem img,
+.largeImage img,
+.stripPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photoCafe img,
+img.photoCafe {
+  object-position: center 54%;
+}
+
+.photoGhat img,
+img.photoGhat {
+  object-position: center 28%;
+}
+
+.photoRoom img,
+img.photoRoom {
+  object-position: center 53%;
+}
+
+.photoRoomLower img,
+img.photoRoomLower {
+  object-position: center 76%;
+}
+
+.photoMap img,
+img.photoMap {
+  object-position: right 82%;
+}
+
+.cardBody {
+  padding: 24px 24px 22px;
+}
+
+.cardBody h3,
+.storyCopy h3,
+.roomStrip h3,
+.eventItem h3,
+.testimonialCard h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.cardBody h3 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+ 
+}
+
+.cardBody p {
+  min-height: 54px;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.activityCard button {
+  min-height: 42px;
+  margin-top: 18px;
+  padding: 0 26px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 9px 20px rgba(30, 22, 15, 0.06);
+}
+
+.featuredSection {
+  padding-top: 50px;
+}
+
+.storyGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(36px, 5vw, 70px);
+  align-items: center;
+}
+
+.largeImage {
+  overflow: hidden;
+  min-height: 360px;
+  border-radius: 36px 8px 36px 8px;
+  box-shadow: var(--shadow);
+}
+
+.ghatImage {
+  min-height: 430px;
+  border-radius: 8px 8px 36px 36px;
+}
+
+.storyCopy {
+  max-width: 560px;
+}
+
+.storyCopy h3 {
+  margin-top: 20px;
+  font-size: clamp(1.75rem, 2.8vw, 2.35rem);
+}
+
+.storyCopy p,
+.roomStrip p {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.roomStrip {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 22px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.stripPhoto {
+  height: 130px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.roomStrip h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  
+}
+
+.roomStrip p {
+  margin-top: 8px;
+  font-size: 0.85rem;
+}
+
+.roomStrip button {
+  min-height: 38px;
+  margin-top: 12px;
+  padding: 0 26px;
+  border-radius: 0;
+  background: var(--orange);
+  color: #fff;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.galleryItem {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #e7e1d8;
+}
+
+.eventsSection {
+  background: #efede7;
+}
+
+.eventList {
+  display: grid;
+  gap: 18px;
+}
+
+.eventItem {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: start;
+  padding: 28px 34px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.eventItem span {
+  color: var(--orange);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+}
+
+.eventItem h3 {
+  font-size: 1.1rem;
+}
+
+.eventItem p {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.testimonialCard {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.testimonialCard svg {
+  color: var(--orange);
+}
+
+.testimonialCard p {
+  max-width: 520px;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+  line-height: 1.24;
+}
+
+.testimonialCard h3 {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .activityGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .storyGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .container,
+  .heroInner {
+    width: min(100% - 36px, 1280px);
+  }
+
+  .hero {
+    min-height: 720px;
+  }
+
+  .heroInner {
+    padding-top: 92px;
+  }
+
+  .heroActions,
+  .stats {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+  }
+
+  .stats div {
+    width: 100%;
+    height: 72px;
+    border-radius: 8px;
+  }
+
+  .activityGrid,
+  .galleryGrid,
+  .testimonialGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 72px 0;
+  }
+
+  .sectionHead h2 {
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+  }
+
+  .roomStrip,
+  .eventItem {
+    grid-template-columns: 1fr;
+  }
+
+  .largeImage,
+  .ghatImage {
+    min-height: 290px;
+  }
+
+  .stripPhoto {
+    height: 180px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: clamp(2.5rem, 11vw, 3.4rem);
+  }
+  .stats div {
+    height: 64px;
+  }
+  .cardBody {
+    padding: 20px 18px 18px;
+  }
+  .testimonialCard {
+    padding: 26px 22px;
+  }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+  .stats {
+    margin-top: 32px;
+  }
+}

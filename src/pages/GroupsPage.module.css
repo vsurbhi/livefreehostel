@@ -1,0 +1,75 @@
+/* ============================================================
+   GroupsPage — responsive layout classes for the grids that
+   need to change shape across breakpoints (page is otherwise
+   inline-styled; see DestinationPage.module.css for the same
+   pattern/rationale).
+   ============================================================ */
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 80px;
+  align-items: center;
+}
+.twoColImage {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+  height: 520px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+}
+.twoColImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+@media (max-width: 900px) {
+  .twoCol { grid-template-columns: 1fr; gap: 36px; }
+  .twoColImage { height: clamp(280px, 65vw, 450px); }
+}
+
+/* ---------- Split form section ---------- */
+.formSplit {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.formLeftPanel {
+  background: var(--primary);
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formRightPanel {
+  padding: 60px 50px;
+}
+@media (max-width: 900px) {
+  .formSplit { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .formLeftPanel, .formRightPanel { padding: 40px 28px; }
+}
+@media (max-width: 400px) {
+  .formLeftPanel, .formRightPanel { padding: 32px 18px; }
+}
+
+/* ---------- Form field rows ---------- */
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+@media (max-width: 520px) {
+  .formRow { grid-template-columns: 1fr; gap: 12px; margin-bottom: 12px; }
+}

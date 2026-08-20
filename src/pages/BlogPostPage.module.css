@@ -1,0 +1,160 @@
+.page {
+  padding: 110px 20px 90px;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  color: #888;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.back:hover {
+  color: var(--accent, #c0392b);
+}
+
+.container h1 {
+  font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+  line-height: 1.25;
+  margin: 0 0 28px;
+}
+
+.content {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #2b2b2b;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: block;
+}
+
+.content p {
+  margin: 0 0 18px;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  margin: 32px 0 14px;
+  line-height: 1.3;
+}
+
+.content ul,
+.content ol {
+  margin: 0 0 18px;
+  padding-left: 22px;
+}
+
+.content li {
+  margin-bottom: 8px;
+}
+
+.content a {
+  color: var(--accent, #c0392b);
+}
+
+.related {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid #eee;
+}
+
+.related h3 {
+  margin: 0 0 18px;
+  font-size: 1.1rem;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.relatedCard {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.relatedCard img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.moreStories {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid #eee;
+}
+
+.moreStories h3 {
+  margin: 0 0 18px;
+  font-size: 1.1rem;
+}
+
+.moreStoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.moreStoriesCard {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.moreStoriesCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.moreStoriesCard img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.moreStoriesCard > div {
+  padding: 12px 14px;
+}
+
+.moreStoriesTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.moreStoriesExcerpt {
+  font-size: 0.8rem;
+  color: #888;
+  line-height: 1.5;
+  margin-top: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
