@@ -165,7 +165,7 @@ export default function PetFriendlyPage() {
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 {[
-                  { icon: '🔒', text: 'Security deposit of ₹500 — returned if no damage occurs.' },
+                  { icon: '🔒', text: 'Security deposit of ₹2000 — returned if no damage occurs.' },
                   { icon: '🛠️', text: 'Material damage repair costs will be charged to the guest.' },
                   { icon: '🧹', text: 'Deep cleaning fees apply for persistent odors or stains.' },
                 ].map((d, i) => (
