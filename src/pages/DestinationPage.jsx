@@ -88,7 +88,7 @@ As a preferred launchpad and trusted base camp for massive “India Hikes” tre
   },
   dehradun: {
     tagline: 'Uttarakhand · Gateway to Himalayas',
-    address: 'Rajpur Road.',
+    address: 'Mussoorie Road.',
     about: [`Located in a peaceful, tree-lined valley just minutes from the city's key transit lines, Live Free Hostel Dehradun serves as the ultimate gateway town launchpad and a productive work sanctuary. The absolute heart of our property is our expansive rooftop terrace café—a vibrant, active common area with beautiful, sweeping views of the surrounding green hills and shifting mountain mist. It is the perfect scenic backdrop where travellers, trekkers and remote professionals naturally gather to connect over fresh food, acoustic guitar strumming, or casual sundowner chats over a cup of coffee. This multi-functional rooftop café space seamlessly blend work, play, and community. Digital nomads can settle into quiet seating corners with stable Wi-Fi and plenty of accessible socket points, while others challenge new friends to high-energy table tennis or foosball matches, board games and casual poker nights. Accommodation options cater to every traveller’s preference, featuring clean, spacious, air-conditioned mixed and female-only dorms equipped with personal privacy curtains and secure storage lockers, alongside premium private rooms for peaceful downtime.
 As a preferred transit launchpad and trusted base camp for massive Indiahikes trekking expeditions, our expertly trained hospitality team is uniquely equipped to manage group logistics. Whether you are having a meal at the rooftop café with your travel squad, swapping trail stories under the open sky, or getting insider route tips from our 24/7 reception desk, this hostel transforms your valley stopover into an immersive community experience that feels just like home.
 `,'Dehradun offers backpackers lush river caves, sulphur springs, and a vibrant café culture. Nestled in the Himalayan foothills, it provides easy access to mountain treks, historic colonial architecture, and serene Buddhist monasteries. It is the perfect hub for nature lovers, adventure seekers, and travellers exploring northern India.'],
@@ -620,7 +620,7 @@ function HeroInfoSection({ dest, meta }) {
     <section style={{ padding: '44px 0 32px', background: '#fff' }}>
       <div className="container">
         <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 800, color: 'var(--text)', marginBottom: 10, lineHeight: 1.15 }}>
-          Live Free Hostel {dest.name}
+          Live Free Hostel,{dest.name}
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 20, color: '#888', fontSize: '0.92rem' }}>
           <MapPin size={15} style={{ color: 'var(--primary)', flexShrink: 0 }} />
