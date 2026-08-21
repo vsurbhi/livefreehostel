@@ -185,7 +185,7 @@ export const AWARDS = [
   },
   {
     emoji: '⭐',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/IMG-20260820-WA0048.jpg',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_3.png',
     platform: 'Booking.com Review Award',
     year: '2023 — 8.7 / 10',
     property: 'Live Free Hostel · Varanasi',
@@ -193,7 +193,7 @@ export const AWARDS = [
   },
   {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_5.jpg',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_5.png',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
