@@ -199,6 +199,14 @@ export const AWARDS = [
     property: 'Live Free Hostel Network',
     theme: 'dark',
   },
+  {
+    emoji: '🌟',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_4.png',
+    platform: 'Hostelworld — Superb 9.2',
+    year: 'Best Hostels India',
+    property: 'Live Free Hostel Network',
+    theme: 'dark',
+  },
 ]
 
 export const SOCIAL_IMGS = [
