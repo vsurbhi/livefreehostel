@@ -193,7 +193,7 @@ export const AWARDS = [
   },
   {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_5.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_4.png',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
@@ -201,7 +201,15 @@ export const AWARDS = [
   },
   {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_4.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_5.png',
+    platform: 'Hostelworld — Superb 9.2',
+    year: 'Best Hostels India',
+    property: 'Live Free Hostel Network',
+    theme: 'dark',
+  },
+   {
+    emoji: '🌟',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_6.png',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
