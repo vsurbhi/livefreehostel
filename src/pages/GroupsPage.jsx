@@ -231,9 +231,7 @@ export default function GroupsPage() {
                   </div>
 
                   <div style={{ marginBottom: 20 }}>
-                    <p style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
-                      Add-On Requirements Needed
-                    </p>
+                  
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 20px' }}>
                       {ADD_ONS.map(addon => (
                         <label key={addon} style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: '0.9rem', color: 'var(--text-muted)', cursor: 'pointer' }}>
