@@ -233,7 +233,7 @@ export default function GroupsPage() {
                   <div style={{ marginBottom: 20 }}>
                   
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 20px' }}>
-                      {ADD_ONS.map(addon => (
+                      {/* {ADD_ONS.map(addon => (
                         <label key={addon} style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: '0.9rem', color: 'var(--text-muted)', cursor: 'pointer' }}>
                           <input
                             type="checkbox"
@@ -241,8 +241,8 @@ export default function GroupsPage() {
                             onChange={() => toggleAddOn(addon)}
                           />
                           {addon}
-                        </label>
-                      ))}
+                       </label>
+                     ))} */}
                     </div>
                   </div>
 
