@@ -209,7 +209,7 @@ export const AWARDS = [
   },
    {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_6.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_6.jpg',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
