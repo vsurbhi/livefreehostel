@@ -169,7 +169,7 @@ export const TESTIMONIALS = [
 export const AWARDS = [
   {
     emoji: '🏆',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_1.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_11.jpg',
     platform: "TripAdvisor Travellers' Choice",
     year: '2023',
     property: 'Live Free Hostel · Rishikesh',
@@ -177,7 +177,7 @@ export const AWARDS = [
   },
   {
     emoji: '⭐',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_2.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_12.jpg',
     platform: 'Booking.com Review Award',
     year: '2023 — 8.5 / 10',
     property: 'Live Free Hostel · Rishikesh',
@@ -185,7 +185,7 @@ export const AWARDS = [
   },
   {
     emoji: '⭐',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_3.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_13.jpg',
     platform: 'Booking.com Review Award',
     year: '2023 — 8.7 / 10',
     property: 'Live Free Hostel · Varanasi',
@@ -193,7 +193,7 @@ export const AWARDS = [
   },
   {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_4.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_14.jpg',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
@@ -201,7 +201,7 @@ export const AWARDS = [
   },
   {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_5.png',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_15.jpg',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
@@ -209,12 +209,20 @@ export const AWARDS = [
   },
    {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_6.jpg',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_16.jpg',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
     theme: 'dark',
   },
+   {
+    emoji: '🌟',
+    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_17.jpg',
+    platform: 'Hostelworld — Superb 9.2',
+    year: 'Best Hostels India',
+    property: 'Live Free Hostel Network',
+    theme: 'dark',
+  }
 ]
 
 export const SOCIAL_IMGS = [
