@@ -16,7 +16,7 @@ const fadeUp = (delay = 0) => ({
 
 const LOCATIONS = ['Rishikesh', 'Varanasi','Dehradun',]
 const TRIP_PURPOSES = ['Trekking Group', 'Student Group', 'Corporate', 'Leisure & Friends']
-//const ADD_ONS = ['Custom Buffet Meals 🥞', 'Private Bonfire 🔥', 'White-Water Rafting 🛶']
+//   const ADD_ONS = ['Custom Buffet Meals 🥞', 'Private Bonfire 🔥', 'White-Water Rafting 🛶']
 const ORG_NAME_SUGGESTIONS = ['Indiahikes Group Leader', 'ABC Corporates', 'XYZ Trekking Club', 'College Student Group']
 
 const getToday = () => new Date().toISOString().split('T')[0]
@@ -184,19 +184,15 @@ export default function GroupsPage() {
               ) : (
                 <form onSubmit={handleSubmit}>
                   <div className={styles.formRow}>
-                    <input
-                      type="text"
-                      name="orgName"
-                      value={form.orgName}
-                      onChange={handleChange}
-                      required
-                      placeholder="Your Name / Organization Name *"
-                      list="orgNameSuggestions"
-                      style={inputStyle}
-                    />
-                    <datalist id="orgNameSuggestions">
-                      {ORG_NAME_SUGGESTIONS.map(s => <option key={s} value={s} />)}
-                    </datalist>
+                   <input
+  type="text"
+  name="orgName"
+  value={form.orgName}
+  onChange={handleChange}
+  required
+  placeholder="Your Name / Organization Name *"
+  style={inputStyle}
+/>
                   </div>
 
                   <div className={styles.formRow}>

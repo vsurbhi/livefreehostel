@@ -620,7 +620,7 @@ function HeroInfoSection({ dest, meta }) {
     <section style={{ padding: '44px 0 32px', background: '#fff' }}>
       <div className="container">
         <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 800, color: 'var(--text)', marginBottom: 10, lineHeight: 1.15 }}>
-          Live Free Hostel,{dest.name}
+          Live Free Hostel, {dest.name}
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 20, color: '#888', fontSize: '0.92rem' }}>
           <MapPin size={15} style={{ color: 'var(--primary)', flexShrink: 0 }} />

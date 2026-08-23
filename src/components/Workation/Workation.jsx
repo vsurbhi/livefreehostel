@@ -117,7 +117,7 @@ export default function Workation() {
                       onChange={(e) => setStay(e.target.value)}
                     >
                       <option value="" disabled>
-                      Live Free Varanasi 
+                      Select your workation 
                       </option>
                       {stays.map((s) => (
                         <option key={s} value={s}>

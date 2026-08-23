@@ -113,7 +113,7 @@ export default function PetFriendlyPage() {
                 Daily rate per pet: <span style={{ color: '#e85d3af3' }}>₹500</span>
               </h2>
               <p style={{ color: '#777', fontSize: '0.95rem', marginBottom: 28, lineHeight: 1.7 }}>
-                To ensure a spotless experience for all guests, a ₹500 refundable deposit applies.
+                To ensure a spotless experience for all guests, a ₹2000 refundable deposit applies.
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
