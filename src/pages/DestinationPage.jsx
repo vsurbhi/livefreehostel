@@ -187,49 +187,11 @@ const CITY_PHOTOS = {
   'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Main/22.jpg',
   'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Main/23.jpg',
 ],
-    'Property': ['https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/1652357644808_image_6483441_t1ncgf.jpg', 
-      'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/DSC09140_vjitra.jpg',
-       'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/GOPR4866-01_cvdl7a.jpg', 
-       'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/GOPR4897_gqv3az.jpg', 
-       'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/IMG_20231126_175041_vsorfl.jpg',
-        'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/IMG_20231126_175143_pabnyb.jpg', 
-        'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/IMG_2680_dd2twv.jpg', 
-        'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/Property/IMG_7282-Edit-01-01_hfzdxi.jpg'],
-    'Common Area': ['https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/_6__0021_-_Copy_ebjgid.jpg',
-       'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/_6__0053_vtwnvh.jpg', 
-       'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/1653632535675-01_ql75el.jpg',
-        'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/communal_dinner_ejkrjq.jpg', 
-        'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/Holi_celebration_adpyxz.jpg',
-         'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/IMG_20230218_113337_1_e4ucvi.jpg',
-          'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/IMG_20231013_125201_jgit5d.jpg',
-           'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/IMG_2680_c07en4.jpg', 
-           'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/IMG_8959_djblsl.jpg',
-            'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/Live_Music_vioifo.jpg', 
-            'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/sandup_comedy_hydrbo.jpg',
-             'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/common+area/Valentines_day_ibke4i.jpg'],
-          
-    'Reception': ['https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/recept/_6__0135_1_dbnwhs.jpg',
-       'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/recept/_6__0154_zk9pq9.jpg',
-        'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/recept/_6__0198_weykzc.jpg',
-         'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/all_compressed/all/recept/main_zcjmir.jpg'],
-    'Deluxe Private':["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/5.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/6.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Bathroom.jpg"
-        
-      ],
     
-    '10-bed Dorm': ["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/5.jpg",
-      ],
+    
+  
+    
+   
     '6-bed Dorm': ["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/Main.jpg",
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/1.jpg",
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/2.jpg",
@@ -249,6 +211,24 @@ const CITY_PHOTOS = {
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/3.jpg",
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/4.jpg",
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/5.jpg"
+      ],
+
+      '10-bed Dorm': ["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/Main.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/1.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/2.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/3.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/4.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/5.jpg",
+      ],
+        'Deluxe Private':["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Main.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/1.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/2.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/3.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/4.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/5.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/6.jpg",
+        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Bathroom.jpg"
+        
       ],
   },
   dehradun: {
@@ -296,14 +276,7 @@ const CITY_PHOTOS = {
     "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/4.jpg",
     "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/Toilet_edited.png"
 ],
-'Female Dorm': [
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/Main.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/3.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/4.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/Toilet.jpg"
-],
+
 'Deluxe Private':[
     "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/Main.jpg",
     "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/1.jpg",
@@ -323,19 +296,18 @@ const CITY_PHOTOS = {
     "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/Balcony.jpg",
     "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/Toilet.jpg"
 ],
-    'Property': [
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/LFD9_1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/IMG_20251128_173843_00_091.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Main+Pics/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Main+Pics/9.jpg"
-],
-    'Cafe':[
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Main+Pics/11.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Main+Pics/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Main+Pics/17.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Main+Pics/16.jpg"
-],
-    
+
+'Female Dorm':  [
+  "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/female_dorm/1.png",
+  "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/female_dorm/2.png",
+  "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/female_dorm/3.png",
+  "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/female_dorm/4.jpg",
+  "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/female_dorm/Main.png",
+  "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/female_dorm/Toilet.png"
+],    
+
+   
+
    
     
   },
@@ -408,7 +380,7 @@ rishikesh: {
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Deluxe+private+room/bathroom.jpg",
 
       ],
-  "Deluxe Standard":["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/Main.jpg",
+  "Standard Private Room ":["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/Main.jpg",
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/1.jpg",
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/2.jpg",
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/3.jpg",
@@ -416,19 +388,7 @@ rishikesh: {
         "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/bathroom.jpg",
         
       ],
-  'Property': [
-    'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/1.jpg',
-     'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/3.jpg', 
-     'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/IMG_20200323_171514.jpg',
-      'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/18.jpg',
-    'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/image_4524e300.jpg',
-     'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/10.jpg',
-      'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/15.jpg',
-      'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/14.jpg',
-    'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/IMG20220728221525.jpg',
-    'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/6.jpg',
-    'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Main+pictures/LFR11.jpg'
-  ],
+  
 },
 }
 
