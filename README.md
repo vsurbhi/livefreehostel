@@ -69,14 +69,7 @@ npm run dev
 npm run build
 ```
 
-## 👨‍💻 Contributors
 
-### Frontend Development
-
-* **Jai Surya Kumar**
-* **Akhilesh Guleria**
-
-Together, we developed the complete frontend experience, including responsive layouts, reusable React components, user interface implementation, and overall user experience.
 
 ## 🎯 Objectives
 
