@@ -1,0 +1,30 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+
+# --- Routing (fixes B01: every route except / returned 404) ---
+# With prerendering in place, every real route (/, /rishikesh, /blog/<slug>, ...)
+# is now a genuine static file in dist/, so it returns 200 on its own — no
+# rewrite needed for it.
+#
+# This rule is ONLY a fallback for paths that don't correspond to a real file
+# (typos, old/removed URLs). It routes them to our own on-brand 404 page
+# while keeping a real 404 HTTP status, so crawlers correctly drop the URL
+# instead of indexing your homepage under it (a "soft 404").
+customRules:
+  - source: '/<*>'
+    target: '/404.html'
+    status: '404'

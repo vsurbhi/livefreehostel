@@ -1,40 +1,19 @@
 // scripts/generate-sitemap.js
-import { writeFileSync, readFileSync } from 'fs'
+import { writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
+import { getAllRoutes } from './routes.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const SITE_URL = 'https://livefreehostels.com'
 
-const blogPosts = JSON.parse(
-  readFileSync(join(__dirname, '../src/data/blogPosts.json'), 'utf-8')
-)
-
-const staticRoutes = [
-  '',
-  'about',
-  'pet-friendly',
-  'awards',
-  'rishikesh',
-  'dehradun',
-  'varanasi',
-  'groups',
-  'experience',
-  'contact',
-  'hostel-policy',
-  'privacy-policy',
-  'terms-conditions',
-  'data-protection-guidelines',
-  'blogs',
-]
-
-const blogRoutes = blogPosts.map((post) => `blog/${post.slug}`)
-const allRoutes = [...staticRoutes, ...blogRoutes]
+const allRoutes = getAllRoutes()
+const today = new Date().toISOString().slice(0, 10)
 
 const urls = allRoutes
   .map((route) => {
     const loc = route === '' ? `${SITE_URL}/` : `${SITE_URL}/${route}`
-    return `  <url>\n    <loc>${loc}</loc>\n  </url>`
+    return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n  </url>`
   })
   .join('\n')
 
