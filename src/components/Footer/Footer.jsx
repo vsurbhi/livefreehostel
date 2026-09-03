@@ -38,9 +38,9 @@ export default function Footer() {
           <div className={styles.block}>
             <h4>Locations</h4>
             <ul>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/rishikesh') }}><MapPin size={14} /> Rishikesh</a></li>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/varanasi') }}><MapPin size={14} /> Varanasi</a></li>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/dehradun') }}><MapPin size={14} />Dehradun</a></li>
+              <li><Link to="/rishikesh"><MapPin size={14} /> Rishikesh</Link></li>
+<li><Link to="/varanasi"><MapPin size={14} /> Varanasi</Link></li>
+<li><Link to="/dehradun"><MapPin size={14} />Dehradun</Link></li>
             </ul>
           </div>
 
@@ -52,7 +52,7 @@ export default function Footer() {
               <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               <li><Link to="/terms-conditions">Terms &amp; Conditions</Link></li>
               <li><Link to="/data-protection-guidelines">Data Protection Guidelines</Link></li>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/pet-friendly') }}>Pet Policy</a></li>
+              <li><Link to="/pet-friendly">Pet Policy</Link></li>
             </ul>
           </div>
 
@@ -60,12 +60,12 @@ export default function Footer() {
           <div className={styles.block}>
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/about') }}>About Us</a></li>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/groups') }}>Groups</a></li>
-              <li><a href="#awards" onClick={handleSectionLink('awards')}>Awards</a></li>
-              <li><a href="#workation" onClick={handleSectionLink('workation')}>Workations</a></li>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/contact') }}>Contact Us</a></li>
-              <li><a href="#" onClick={e => { e.preventDefault(); navigate('/blogs') }}>Blogs</a></li>
+              <li><Link to="/about">About Us</Link></li>
+<li><Link to="/groups">Groups</Link></li>
+<li><a href="#awards" onClick={handleSectionLink('awards')}>Awards</a></li>
+<li><a href="#workation" onClick={handleSectionLink('workation')}>Workations</a></li>
+<li><Link to="/contact">Contact Us</Link></li>
+<li><Link to="/blogs">Blogs</Link></li>
             </ul>
           </div>
 
