@@ -4,7 +4,7 @@ import { ChevronDown, Coffee, Heart, Laptop2, MessageCircle, Moon, PartyPopper, 
 import { DESTINATIONS } from '../../data/siteData'
 import styles from './Workation.module.css'
 import { CgStories } from 'react-icons/cg'
-import workationImg from '../../assets/image_efaab999.png'
+import workationImg from '../../assets/image_efaab999.webp'
 
 const stays = [
   'Live Free Rishikesh',

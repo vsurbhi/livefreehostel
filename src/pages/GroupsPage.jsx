@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Users, Send, Phone, Mail } from 'lucide-react'
 import styles from './GroupsPage.module.css'
-import IndianHikesImg from '../assets/IndianHikes.png'
-import Cover from "../assets/cover_photo.jpg"
+import IndianHikesImg from '../assets/IndianHikes.webp'
+import Cover from "../assets/cover_photo.webp"
 
 
 const fadeUp = (delay = 0) => ({

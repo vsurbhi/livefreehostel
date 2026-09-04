@@ -1,11 +1,11 @@
 // ============================================================
 //  LIVE FREE — SITE DATA
 // ============================================================
-import social1 from "../assets/social1.png"
-import social2 from "../assets/social2.png"
-import social3 from "../assets/social3.png"
-import social4 from "../assets/social4.png"
-import social5 from "../assets/social5.png"
+import social1 from "../assets/social1.webp"
+import social2 from "../assets/social2.webp"
+import social3 from "../assets/social3.webp"
+import social4 from "../assets/social4.webp"
+import social5 from "../assets/social5.webp"
 
 export const FEATURES = [
   {
@@ -53,7 +53,7 @@ export const STATS = [
   { value: 8.5, suffix: '+', label: 'Average Rating', prefix: '' },
 ]
 import { ImOpt } from 'react-icons/im'
-import rishikeshImg from '../assets/Live_Free-23(1).png'
+import rishikeshImg from '../assets/Live_Free-23(1).webp'
 
 export const DESTINATIONS = [
   {

@@ -2,7 +2,7 @@ import SEO from '../components/Seo/Seo';
 import { useRef, useEffect, useState } from 'react';
 import { motion, useAnimationFrame } from 'framer-motion';
 import { Heart, Globe, Home, Users, AlertCircle, ChevronLeft, ChevronRight } from 'lucide-react';
-import GroupImage from "../assets/Our_Story.jpg"
+import GroupImage from "../assets/Our_Story.webp"
 
 
 const VALUES = [

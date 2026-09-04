@@ -1,7 +1,7 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { Mail, Phone, MapPin, Instagram, Facebook, Linkedin, Youtube } from 'lucide-react'
 import styles from './Footer.module.css'
-import logoImg from '../../assets/l1.png'
+import logoImg from '../../assets/l1.webp'
 
 export default function Footer() {
   const navigate = useNavigate()
@@ -39,8 +39,8 @@ export default function Footer() {
             <h4>Locations</h4>
             <ul>
               <li><Link to="/rishikesh"><MapPin size={14} /> Rishikesh</Link></li>
-<li><Link to="/varanasi"><MapPin size={14} /> Varanasi</Link></li>
-<li><Link to="/dehradun"><MapPin size={14} />Dehradun</Link></li>
+              <li><Link to="/varanasi"><MapPin size={14} /> Varanasi</Link></li>
+              <li><Link to="/dehradun"><MapPin size={14} />Dehradun</Link></li>
             </ul>
           </div>
 
@@ -61,11 +61,11 @@ export default function Footer() {
             <h4>Quick Links</h4>
             <ul>
               <li><Link to="/about">About Us</Link></li>
-<li><Link to="/groups">Groups</Link></li>
-<li><a href="#awards" onClick={handleSectionLink('awards')}>Awards</a></li>
-<li><a href="#workation" onClick={handleSectionLink('workation')}>Workations</a></li>
-<li><Link to="/contact">Contact Us</Link></li>
-<li><Link to="/blogs">Blogs</Link></li>
+              <li><Link to="/groups">Groups</Link></li>
+              <li><a href="#awards" onClick={handleSectionLink('awards')}>Awards</a></li>
+              <li><a href="#workation" onClick={handleSectionLink('workation')}>Workations</a></li>
+              <li><Link to="/contact">Contact Us</Link></li>
+              <li><Link to="/blogs">Blogs</Link></li>
             </ul>
           </div>
 

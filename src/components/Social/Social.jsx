@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
 import { SOCIAL_IMGS } from '../../data/siteData'
 import styles from './Social.module.css'
-import fallbackImg from '../../assets/hero_img.jpeg'
+import fallbackImg from '../../assets/hero_img.webp'
 
 export default function Social() {
   const [currentIndex, setCurrentIndex] = useState(0)

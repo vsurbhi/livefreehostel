@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import { ChevronDown, MapPin, Heart, Home, Info, BookOpen, Users, ArrowLeft } from 'lucide-react'
 import { AnimatePresence, motion } from 'framer-motion'
 import styles from './Navbar.module.css'
-import logoImg from '../../assets/l1.png'
+import logoImg from '../../assets/l1.webp'
 import { Link } from 'react-router-dom'
 
 const ABOUT_ITEMS = [

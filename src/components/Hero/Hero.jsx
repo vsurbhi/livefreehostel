@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { MapPin } from 'lucide-react'
 import { DESTINATIONS } from '../../data/siteData'
 import styles from './Hero.module.css'
-import heroImg from '../../assets/hero_img.jpeg'
+import heroImg from '../../assets/hero_img.webp'
 
 // --- Helpers for default dates ---
 const getToday = () => new Date().toISOString().split('T')[0]

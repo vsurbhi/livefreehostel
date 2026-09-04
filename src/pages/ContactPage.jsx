@@ -2,7 +2,7 @@ import SEO from '../components/Seo/Seo'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Mail, Phone, Send, Instagram, Youtube, Linkedin, Facebook } from 'lucide-react'
-import lfdImage from '../assets/LFD.png'
+import lfdImage from '../assets/LFD.webp'
 import styles from './ContactPage.module.css'
 
 
