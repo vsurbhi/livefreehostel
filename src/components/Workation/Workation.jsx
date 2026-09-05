@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Coffee, Heart, Laptop2, MessageCircle, Moon, PartyPopper, Sun, Wifi } from 'lucide-react'
 import { DESTINATIONS } from '../../data/siteData'
+import { goToBooking } from '../../utils/booking'
 import styles from './Workation.module.css'
 import { CgStories } from 'react-icons/cg'
 import workationImg from '../../assets/image_efaab999.webp'
@@ -32,9 +33,11 @@ export default function Workation() {
   const [stay, setStay] = useState('')
   const [checkIn, setCheckIn] = useState(getToday())
   const [checkOut, setCheckOut] = useState(getTomorrow())
+  const [stayError, setStayError] = useState(false)
 
   const checkInRef = useRef(null)
   const checkOutRef = useRef(null)
+  const stayRef = useRef(null)
 
   // --- Auto-update checkout when check-in changes ---
   useEffect(() => {
@@ -61,14 +64,22 @@ export default function Workation() {
   }
 
   const handleBook = () => {
-    if (stay) {
-      const dest = DESTINATIONS.find(d => stay.toLowerCase().includes(d.id.toLowerCase()))
-      if (dest?.bookingUrl) {
-        window.open(dest.bookingUrl, '_blank', 'noopener,noreferrer')
-        return
-      }
+    if (!stay) {
+      setStayError(true)
+      stayRef.current?.focus()
+      return
     }
-    document.getElementById('destinations')?.scrollIntoView({ behavior: 'smooth' })
+    setStayError(false)
+
+    const dest = DESTINATIONS.find(d => stay.toLowerCase().includes(d.id.toLowerCase()))
+    if (dest?.bookingUrl && dest?.hotelCode) {
+      goToBooking({
+        bookingUrl: dest.bookingUrl,
+        hotelCode: dest.hotelCode,
+        checkin: checkIn,
+        checkout: checkOut,
+      })
+    }
   }
 
   return (
@@ -106,15 +117,21 @@ export default function Workation() {
               <p>This isn't a vacation — it's your life, just with better scenery.</p>
             </div>
 
-            <div className={styles.bookingCard}>
+            <form
+              className={styles.bookingCard}
+              onSubmit={(e) => { e.preventDefault(); handleBook() }}
+            >
               <div className={styles.fieldsRow}>
-                <div className={styles.field}>
+                <div className={`${styles.field} ${stayError ? styles.fieldInvalid : ''}`}>
                   <label htmlFor="stay-select">Select your stay</label>
                   <div className={styles.selectWrap}>
                     <select
                       id="stay-select"
+                      ref={stayRef}
                       value={stay}
-                      onChange={(e) => setStay(e.target.value)}
+                      onChange={(e) => { setStay(e.target.value); setStayError(false) }}
+                      aria-invalid={stayError}
+                      aria-describedby={stayError ? 'stay-error' : undefined}
                     >
                       <option value="" disabled>
                       choose a property
@@ -127,6 +144,9 @@ export default function Workation() {
                     </select>
                     <ChevronDown size={18} className={styles.selectChevron} />
                   </div>
+                  {stayError && (
+                    <span id="stay-error" className={styles.fieldError} role="alert">Please choose a property</span>
+                  )}
                 </div>
 
                 {/* Check-in – wrapper opens the picker */}
@@ -167,10 +187,10 @@ export default function Workation() {
                 </div>
               </div>
 
-              <button type="button" className={styles.ctaBtn} onClick={handleBook}>
+              <button type="submit" className={styles.ctaBtn}>
                 Book now
               </button>
-            </div>
+            </form>
           </motion.div>
 
           <motion.div

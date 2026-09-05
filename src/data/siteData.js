@@ -65,6 +65,7 @@ export const DESTINATIONS = [
     img: rishikeshImg,
     color: '#e2f0dd',
     bookingUrl: 'https://book.livefreehostels.com/booking/book-rooms-livefreehostelrishikesh',
+    hotelCode: 'livefreehostelrishikesh',
   },
   {
     id: 'varanasi',
@@ -75,6 +76,7 @@ export const DESTINATIONS = [
     img: 'https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=800&q=85',
     color: '#fdf3ec',
     bookingUrl: 'https://book.livefreehostels.com/booking/book-rooms-livefreehostelvaranasi',
+    hotelCode: 'livefreehostelvaranasi',
   },
   {
     id: 'dehradun',
@@ -86,6 +88,7 @@ export const DESTINATIONS = [
     img: 'https://d2jqolc708g016.cloudfront.net/get_social_compressed/get+social/ec1769aa-d311-412a-97be-9d7bebdfca7f.webp+(1).jpg',
     color: '#fce4db',
     bookingUrl: 'https://book.livefreehostels.com/booking/book-rooms-livefreehosteldehradun',
+    hotelCode: 'livefreehosteldehradun',
   },
 ]
 export const ROOMS = [
