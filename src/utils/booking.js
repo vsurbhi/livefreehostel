@@ -21,7 +21,7 @@ export function goToBooking({ bookingUrl, hotelCode, checkin, checkout, adults =
   form.method = 'POST'
   form.action = bookingUrl
   form.target = '_blank'
-  form.rel = 'noopener noreferrer'
+  form.rel = 'noopener'
   form.style.display = 'none'
 
   for (const [name, value] of Object.entries(fields)) {
