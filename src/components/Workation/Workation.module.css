@@ -133,6 +133,23 @@
   font-weight: 700;
 }
 
+.fieldError {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #c13b1a;
+}
+
+.fieldInvalid .selectWrap select {
+  border-color: #c13b1a;
+  animation: shake 0.32s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
 .selectWrap {
   position: relative;
   display: flex;

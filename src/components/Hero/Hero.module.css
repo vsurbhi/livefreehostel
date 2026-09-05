@@ -112,11 +112,42 @@
 }
 
 .bookingField {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 16px 22px;
   flex: 1;
   min-width: 0;
+}
+
+.bookingError {
+  position: absolute;
+  bottom: -22px;
+  left: 22px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #c13b1a;
+  white-space: nowrap;
+}
+
+.fieldInvalid {
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px #c13b1a;
+  animation: shake 0.32s ease;
+}
+
+.inputError {
+  color: #c13b1a;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+@media (max-width: 768px) {
+  .bookingError { position: static; margin-top: 4px; }
 }
 
 .bookingLabel {

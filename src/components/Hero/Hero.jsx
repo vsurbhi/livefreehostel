@@ -2,6 +2,7 @@ import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { MapPin } from 'lucide-react'
 import { DESTINATIONS } from '../../data/siteData'
+import { goToBooking } from '../../utils/booking'
 import styles from './Hero.module.css'
 import heroImg from '../../assets/hero_img.webp'
 
@@ -25,9 +26,11 @@ export default function Hero() {
   const [location, setLocation] = useState('')
   const [checkin, setCheckin] = useState(getToday())
   const [checkout, setCheckout] = useState(getTomorrow())
+  const [locationError, setLocationError] = useState(false)
 
   const checkinRef = useRef(null)
   const checkoutRef = useRef(null)
+  const locationRef = useRef(null)
 
   // --- Open native date picker programmatically ---
   const openDatePicker = (ref) => {
@@ -42,14 +45,22 @@ export default function Hero() {
   }
 
   const handleBook = () => {
-    if (location) {
-      const dest = DESTINATIONS.find(d => d.id === location)
-      if (dest?.bookingUrl) {
-        window.open(dest.bookingUrl, '_blank', 'noopener,noreferrer')
-        return
-      }
+    if (!location) {
+      setLocationError(true)
+      locationRef.current?.focus()
+      return
     }
-    document.getElementById('destinations')?.scrollIntoView({ behavior: 'smooth' })
+    setLocationError(false)
+
+    const dest = DESTINATIONS.find(d => d.id === location)
+    if (dest?.bookingUrl && dest?.hotelCode) {
+      goToBooking({
+        bookingUrl: dest.bookingUrl,
+        hotelCode: dest.hotelCode,
+        checkin,
+        checkout,
+      })
+    }
   }
 
   const scrollToFeatures = () =>
@@ -76,21 +87,31 @@ export default function Hero() {
         </motion.p>
 
         {/* Booking Panel */}
-        <motion.div className={styles.bookingPanel} {...fadeUp(0.46)}>
-          <div className={styles.bookingField}>
+        <motion.form
+          className={styles.bookingPanel}
+          onSubmit={e => { e.preventDefault(); handleBook() }}
+          {...fadeUp(0.46)}
+        >
+          <div className={`${styles.bookingField} ${locationError ? styles.fieldInvalid : ''}`}>
             <label className={styles.bookingLabel}>
               <MapPin size={13} /> Location
             </label>
             <select
-              className={styles.bookingInput}
+              ref={locationRef}
+              className={`${styles.bookingInput} ${locationError ? styles.inputError : ''}`}
               value={location}
-              onChange={e => setLocation(e.target.value)}
+              onChange={e => { setLocation(e.target.value); setLocationError(false) }}
+              aria-invalid={locationError}
+              aria-describedby={locationError ? 'location-error' : undefined}
             >
               <option value="">Select property</option>
               <option value="rishikesh">Rishikesh</option>
               <option value="dehradun">Dehradun</option>
               <option value="varanasi">Varanasi</option>
             </select>
+            {locationError && (
+              <span id="location-error" className={styles.bookingError} role="alert">Please select a property</span>
+            )}
           </div>
 
           <div className={styles.bookingDivider} />
@@ -131,8 +152,8 @@ export default function Hero() {
             </div>
           </div>
 
-          <button className={styles.bookingBtn} onClick={handleBook}>Book Now</button>
-        </motion.div>
+          <button type="submit" className={styles.bookingBtn}>Book Now</button>
+        </motion.form>
       </div>
     </section>
   )
