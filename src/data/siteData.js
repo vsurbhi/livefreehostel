@@ -83,7 +83,7 @@ export const DESTINATIONS = [
     tagline: 'The Perfect Getaway Town',
     desc: 'Nestled in the valley, our Dehradun property is the perfect place to explore the city and a Mussoorie stopover. Featuring AC rooms, Wi-Fi, social zones, and quiet nooks, it unites all travelers.',
     path: '/dehradun',
-    img: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/get_social_compressed/get+social/ec1769aa-d311-412a-97be-9d7bebdfca7f.jpg+(1).jpg',
+    img: 'https://d2jqolc708g016.cloudfront.net/get_social_compressed/get+social/ec1769aa-d311-412a-97be-9d7bebdfca7f.webp+(1).jpg',
     color: '#fce4db',
     bookingUrl: 'https://book.livefreehostels.com/booking/book-rooms-livefreehosteldehradun',
   },
@@ -169,7 +169,7 @@ export const TESTIMONIALS = [
 export const AWARDS = [
   {
     emoji: '🏆',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_11.jpg',
+    image: 'https://d2jqolc708g016.cloudfront.net/awards/award_11.webp',
     platform: "TripAdvisor Travellers' Choice",
     year: '2023',
     property: 'Live Free Hostel · Rishikesh',
@@ -177,7 +177,7 @@ export const AWARDS = [
   },
   {
     emoji: '⭐',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_12.jpg',
+    image: 'https://d2jqolc708g016.cloudfront.net/awards/award_12.webp',
     platform: 'Booking.com Review Award',
     year: '2023 — 8.5 / 10',
     property: 'Live Free Hostel · Rishikesh',
@@ -185,7 +185,7 @@ export const AWARDS = [
   },
   {
     emoji: '⭐',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_13.jpg',
+    image: 'https://d2jqolc708g016.cloudfront.net/awards/award_13.webp',
     platform: 'Booking.com Review Award',
     year: '2023 — 8.7 / 10',
     property: 'Live Free Hostel · Varanasi',
@@ -193,7 +193,7 @@ export const AWARDS = [
   },
   {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_14.jpg',
+    image: 'https://d2jqolc708g016.cloudfront.net/awards/award_14.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
@@ -201,7 +201,7 @@ export const AWARDS = [
   },
   {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_15.jpg',
+    image: 'https://d2jqolc708g016.cloudfront.net/awards/award_15.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
@@ -209,7 +209,7 @@ export const AWARDS = [
   },
    {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_16.jpg',
+    image: 'https://d2jqolc708g016.cloudfront.net/awards/award_16.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
@@ -217,7 +217,7 @@ export const AWARDS = [
   },
    {
     emoji: '🌟',
-    image: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/awards/award_17.jpg',
+    image: 'https://d2jqolc708g016.cloudfront.net/awards/award_17.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
     property: 'Live Free Hostel Network',
@@ -253,11 +253,11 @@ export const CITY_ROOMS = {
     "Non-feather Pillows", "Linen", "Socket Near the Bed", "Bedside Lamp", "Work Desk"
   ],
       roomdesc: "2  Bunk Beds",
-      images: ["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/Bathroom.jpg"
+      images: ["https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/Main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+female+dorm/Bathroom.webp"
       ]
     },
     {
@@ -274,11 +274,11 @@ export const CITY_ROOMS = {
     "Non-feather Pillows", "Linen", "Socket Near the Bed", "Bedside Lamp", "Work Desk"
   ],
       roomdesc: "2 Bunk Beds",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/bathroom.jpg"
+      images:["https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/4+bed+mixed+dorm/bathroom.webp"
       ],
     },
      {
@@ -295,11 +295,11 @@ export const CITY_ROOMS = {
     "Non-feather Pillows", "Linen", "Socket Near the Bed", "Bedside Lamp", "Work Desk"
   ],
       roomdesc: "3 Bunk Beds",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/bathroom.jpg",
+      images:["https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/6+bed+mixed+dorm/bathroom.webp",
         
       ],
     },
@@ -318,12 +318,12 @@ export const CITY_ROOMS = {
     "Socket Near the Bed", "Bedside Lamp", "Coffee Table Set"
   ],
       roomdesc:"1 King Size Bed ",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Deluxe+private+room/main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Deluxe+private+room/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Deluxe+private+room/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Deluxe+private+room/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Deluxe+private+room/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Deluxe+private+room/bathroom.jpg",
+      images:["https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Deluxe+private+room/main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Deluxe+private+room/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Deluxe+private+room/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Deluxe+private+room/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Deluxe+private+room/4.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Deluxe+private+room/bathroom.webp",
 
       ]
     },
@@ -342,12 +342,12 @@ export const CITY_ROOMS = {
     "Socket Near the Bed", "Bedside Lamp", "Coffee Table Set"
   ],
       roomdesc:"1 Queen Size Bed",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Rishikesh_compressed/Rishikesh/Std+Private+Room/bathroom.jpg",
+      images:["https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Std+Private+Room/Main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Std+Private+Room/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Std+Private+Room/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Std+Private+Room/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Std+Private+Room/4.webp",
+        "https://d2jqolc708g016.cloudfront.net/Rishikesh_compressed/Rishikesh/Std+Private+Room/bathroom.webp",
         
       ]
     }
@@ -364,12 +364,12 @@ export const CITY_ROOMS = {
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Lockers", "Wi-fi", "Bed Curtains", "Ceiling Fan", "Bed Fan", "Air conditioner", "Shared Bathroom", "Hot water", "Hair dryer", "Towel Rental", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Linen", "Socket near the bed", "Bedside lamp"],
       roomdesc:"4 Bunk Beds",
       images:[
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/Main.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/3.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/4.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/Toilet.jpg"
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/Main.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/1.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/2.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/3.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/4.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+8+bed+dorm+pics/Toilet.webp"
 ]
     },
     {
@@ -382,13 +382,13 @@ export const CITY_ROOMS = {
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Lockers", "Wi-fi", "Bed Curtains", "Ceiling Fan", "Bed Fan", "Air conditioner", "Ensuite Bathroom", "Hot water", "Towel Rental", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Linen", "Socket near the bed", "Bedside lamp"],
       roomdesc:"3 Bunk Beds",
       images: [
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+6+bed+pics/Main.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+6+bed+pics/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+6+bed+pics/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+6+bed+pics/3.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+6+bed+pics/4.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+6+bed+pics/5.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+6+bed+pics/Toilet.jpg"
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+6+bed+pics/Main.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+6+bed+pics/1.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+6+bed+pics/2.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+6+bed+pics/3.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+6+bed+pics/4.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+6+bed+pics/5.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+6+bed+pics/Toilet.webp"
 ]
     },
     {
@@ -401,12 +401,12 @@ export const CITY_ROOMS = {
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Lockers", "Wi-fi", "Bed Curtains", "Ceiling Fan", "Air conditioner", "Ensuite Bathroom", "Hot water", "Towel Rental", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Linen", "Socket near the bed", "Bedside lamp", "Work Desk"],
       roomdesc:"2 Bunk Beds",
       images:[
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/main.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/3.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/4.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/washroom.jpg"
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/main.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/1.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/2.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/3.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/4.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/final+4+bed+dorm+pics/washroom.webp"
 ]
     },
     {
@@ -419,12 +419,12 @@ export const CITY_ROOMS = {
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Lockers", "Wi-fi", "Bed Curtains", "Ceiling Fan", "Air conditioner", "Ensuite Bathroom", "Hot water", "Hair Dryer", "Towel Rental", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Linen", "Socket near the bed", "Bedside lamp", "Work Desk"],
       roomdesc:"2 Bunk Beds",
       images:[
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/Main.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/3.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/4.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+female+dorm+pics/Toilet.jpg"
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+female+dorm+pics/Main.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+female+dorm+pics/1.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+female+dorm+pics/2.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+female+dorm+pics/3.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+female+dorm+pics/4.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+female+dorm+pics/Toilet.webp"
 ]
     },
     {
@@ -437,13 +437,13 @@ export const CITY_ROOMS = {
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Clothes Rack", "Linen", "Electric Kettle", "Tea/ Coffee Sachets", "Wi-fi", "Flat Screen TV", "Ceiling Fan", "Air conditioner (Hot & Cold)", "Ensuite Bathroom", "Toiletries", "Hair Dryer", "Hot water", "Towels", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Socket near the bed", "Bedside lamp", "Patio Set"],
       roomdesc:"1 King Size Bed",
       images:[
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/Main.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/3.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/4.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/Balcony.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/Toilet.jpg"
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/Main.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/1.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/2.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/3.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/4.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/Balcony.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+deluxe+room+pics/Toilet.webp"
 ]
     },
     {
@@ -456,14 +456,14 @@ export const CITY_ROOMS = {
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Clothes Rack", "Linen", "Electric Kettle", "Tea/ Coffee Sachets", "Wi-fi", "Flat Screen TV", "Ceiling Fan", "Air conditioner", "Ensuite Bathroom", "Toiletries", "Hair Dryer", "Hot water", "Towels", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Socket near the bed", "Bedside lamp", "Work Desk", "Patio Set"],
       roomdesc:"1 King Size Bed & 1 Bunk Bed",
       images: [
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/Main.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/1.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/2.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/3.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/4.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/5.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/Balcony.jpg",
-    "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Dehradun_compressed/Dehradun/Final+family+private+room/Toilet.jpg"
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/Main.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/1.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/2.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/3.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/4.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/5.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/Balcony.webp",
+    "https://d2jqolc708g016.cloudfront.net/Dehradun_compressed/Dehradun/Final+family+private+room/Toilet.webp"
 ]
     },
   ],
@@ -484,12 +484,12 @@ export const CITY_ROOMS = {
               "Bedside lamp"
             ],
       roomdesc:" 5 Bunk Beds",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/10-bed+Dorm/5.jpg",
+      images:["https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/10-bed+Dorm/Main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/10-bed+Dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/10-bed+Dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/10-bed+Dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/10-bed+Dorm/4.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/10-bed+Dorm/5.webp",
       ]
     },
     {
@@ -507,12 +507,12 @@ export const CITY_ROOMS = {
               "Bedside lamp"
             ],
       roomdesc:"4 Bunk Beds",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/8-bed+Dorm/5.jpg"
+      images:["https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/8-bed+Dorm/Main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/8-bed+Dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/8-bed+Dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/8-bed+Dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/8-bed+Dorm/4.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/8-bed+Dorm/5.webp"
       ]
     },
     {
@@ -524,11 +524,11 @@ export const CITY_ROOMS = {
       bookingUrl: 'https://www.booking.com',  // TODO: Update booking link
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Linen", "Lockers", "Wi-fi", "Bed Curtains", "Ceiling Fan", "Bed Fan", "Air conditioner", "Ensuite Bathroom", "Hot water", "Towel Rental", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Socket near the bed", "Bedside lamp"],
       roomdesc:"3 Bunk Beds",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Dorm/Bathroom.jpg",
+      images:["https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Dorm/Main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Dorm/Bathroom.webp",
       ]
     },
     {
@@ -546,12 +546,12 @@ export const CITY_ROOMS = {
               "Bedside lamp"
             ],
       roomdesc:"3 Bunk Beds",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/Bathroom.jpg",
+      images:["https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/Main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/4.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/6-bed+Female+Dorm/Bathroom.webp",
       ]
     },
     {
@@ -563,14 +563,14 @@ export const CITY_ROOMS = {
       bookingUrl: 'https://www.booking.com',  // TODO: Update booking link
       amenities: ["Dustbin", "Daily Housekeeping", "Non Smoking Room", "Linen", "Lockers", "Wi-fi", "Bed Curtains", "Ceiling Fan", "Bed Fan", "Air conditioner", "Ensuite Bathroom", "Hot water", "Towel Rental", "Toilet", "Shower", "Toilet paper", "Non-feather pillows", "Socket near the bed", "Bedside lamp"],
       roomdesc:"1 King Size Bed",
-      images:["https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Main.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/1.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/2.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/3.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/4.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/5.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/6.jpg",
-        "https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Bathroom.jpg"
+      images:["https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Main.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/1.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/2.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/3.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/4.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/5.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/6.webp",
+        "https://d2jqolc708g016.cloudfront.net/Varanasi_compressed/Varanasi/Deluxe+Private+Dorm/Bathroom.webp"
         
       ]
     },
@@ -732,7 +732,7 @@ export const CITY_MUST_READS = {
       // TODO: Replace with real description
       desc: 'From sunrise yoga to river rafting — here is your complete guide to experiencing the best of Rishikesh.',
       tag: 'Guide',                         // TODO: Update tag (e.g. 'Tips', 'Guide', 'Food', 'Adventure')
-      img: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/organized_by_city/Rishikesh/one-of-the-thrilling-experiences-in-rishikesh-white-water-ra/one-of-the-thrilling-experiences-in-rishikesh-white-water-ra-1.webp', // TODO: Replace with real image
+      img: 'https://d2jqolc708g016.cloudfront.net/organized_by_city/Rishikesh/one-of-the-thrilling-experiences-in-rishikesh-white-water-ra/one-of-the-thrilling-experiences-in-rishikesh-white-water-ra-1.webp', // TODO: Replace with real image
       link: '#',                            // TODO: Replace with real article link
     },
     {
@@ -741,7 +741,7 @@ export const CITY_MUST_READS = {
       // TODO: Replace with real description
       desc: 'There is a reason why Rishikesh is called the yoga capital of India. With like a bazillion courses and styles and ashrams to choose from, it can be quite...',
       tag: 'Yoga',                          // TODO: Update tag
-      img: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/organized_by_city/Rishikesh/yoga-in-rishikesh/yoga-in-rishikesh-260.webp', // TODO: Replace with real image
+      img: 'https://d2jqolc708g016.cloudfront.net/organized_by_city/Rishikesh/yoga-in-rishikesh/yoga-in-rishikesh-260.webp', // TODO: Replace with real image
       link: '#',                            // TODO: Replace with real article link
     },
     {
@@ -750,7 +750,7 @@ export const CITY_MUST_READS = {
       // TODO: Replace with real description
       desc: 'Safety tips, best operators, ideal season, and what to expect on the rapids.',
       tag: 'Adventure',                     // TODO: Update tag
-      img: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/organized_by_city/Rishikesh/have-you-indulged-in-these-adventures-of-rishikesh/have-you-indulged-in-these-adventures-of-rishikesh-111.webp', // TODO: Replace with real image
+      img: 'https://d2jqolc708g016.cloudfront.net/organized_by_city/Rishikesh/have-you-indulged-in-these-adventures-of-rishikesh/have-you-indulged-in-these-adventures-of-rishikesh-111.webp', // TODO: Replace with real image
       link: '#',                            // TODO: Replace with real article link
     },
   ],
@@ -799,7 +799,7 @@ export const CITY_MUST_READS = {
       // TODO: Replace with real description
       desc: 'Kachori sabzi, banarasi paan, lassi, and more — the ultimate food walk guide.',
       tag: 'Food',                          // TODO: Update tag
-      img: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/organized_by_city/Banaras+(Varanasi)/a-culinary-expedition-through-banaras-unveiling-the-street-f/a-culinary-expedition-through-banaras-unveiling-the-street-f-157.webp', // TODO: Replace with real image
+      img: 'https://d2jqolc708g016.cloudfront.net/organized_by_city/Banaras+(Varanasi)/a-culinary-expedition-through-banaras-unveiling-the-street-f/a-culinary-expedition-through-banaras-unveiling-the-street-f-157.webp', // TODO: Replace with real image
       link: '#',                            // TODO: Replace with real article link
     },
     {
@@ -808,7 +808,7 @@ export const CITY_MUST_READS = {
       // TODO: Replace with real description
       desc: 'The sacred city of Banaras, known as Varanasi, is a place that beckons pilgrims and travelers from across the globe. It’s a city of spiritual awakening,...',
       tag: 'History',                       // TODO: Update tag
-      img: 'https://livefreewebsite-surbhi-2026.s3.eu-north-1.amazonaws.com/organized_by_city/Banaras+(Varanasi)/a-perfect-stay-by-the-assi-ghat-live-free-banaras/a-perfect-stay-by-the-assi-ghat-live-free-banaras-151.webp', // TODO: Replace with real image
+      img: 'https://d2jqolc708g016.cloudfront.net/organized_by_city/Banaras+(Varanasi)/a-perfect-stay-by-the-assi-ghat-live-free-banaras/a-perfect-stay-by-the-assi-ghat-live-free-banaras-151.webp', // TODO: Replace with real image
       link: '#',                            // TODO: Replace with real article link
     },
   ],
