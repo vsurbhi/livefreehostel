@@ -8,6 +8,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       className={styles.whatsapp}
+      aria-label="Chat with us on WhatsApp"
     >
       <FaWhatsapp size={30} />
     </a>

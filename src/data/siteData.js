@@ -60,7 +60,7 @@ export const DESTINATIONS = [
     id: 'rishikesh',
     name: 'Rishikesh',
     tagline: 'Your Spiritual & Adventure Hub',
-    desc: 'Located in Tapovan near Lakshman Jhula, our top-rated hostel offers a rooftop yoga space, live music, and hammocks—the perfect base camp for rafting and meeting backpackers.',
+    desc: 'Located in Tapovan near Laxman Jhula, our top-rated hostel offers a rooftop yoga space, live music, and hammocks—the perfect base camp for rafting and meeting backpackers.',
     path: '/rishikesh',
     img: rishikeshImg,
     color: '#e2f0dd',

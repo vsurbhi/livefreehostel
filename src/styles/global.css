@@ -176,7 +176,7 @@ input, textarea, select { font-family: inherit; }
 .btn-ghost {
   background: transparent;
   border: 1.5px solid currentColor;
-  color: var(--primary);
+  color: var(--primary-dark);
 }
 .btn-ghost:hover {
   background: var(--primary-glow);
@@ -225,6 +225,13 @@ input, textarea, select { font-family: inherit; }
 
 /* ── Selection ── */
 ::selection { background: var(--primary-glow); color: var(--primary-dark); }
+
+/* ── Focus visibility ── */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--primary-dark);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
 
 /* ── Skip link ── */
 .skip-link {

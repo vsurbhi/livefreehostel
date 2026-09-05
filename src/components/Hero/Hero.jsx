@@ -93,10 +93,11 @@ export default function Hero() {
           {...fadeUp(0.46)}
         >
           <div className={`${styles.bookingField} ${locationError ? styles.fieldInvalid : ''}`}>
-            <label className={styles.bookingLabel}>
+            <label className={styles.bookingLabel} htmlFor="hero-location">
               <MapPin size={13} /> Location
             </label>
             <select
+              id="hero-location"
               ref={locationRef}
               className={`${styles.bookingInput} ${locationError ? styles.inputError : ''}`}
               value={location}
@@ -118,12 +119,13 @@ export default function Hero() {
 
           {/* Check-in – wrapper opens the picker */}
           <div className={styles.bookingField}>
-            <label className={styles.bookingLabel}>Check-in</label>
+            <label className={styles.bookingLabel} htmlFor="hero-checkin">Check-in</label>
             <div
               className={styles.dateWrapper}
               onClick={() => openDatePicker(checkinRef)}
             >
               <input
+                id="hero-checkin"
                 ref={checkinRef}
                 type="date"
                 className={styles.bookingInput}
@@ -137,12 +139,13 @@ export default function Hero() {
 
           {/* Check-out – wrapper opens the picker */}
           <div className={styles.bookingField}>
-            <label className={styles.bookingLabel}>Check-out</label>
+            <label className={styles.bookingLabel} htmlFor="hero-checkout">Check-out</label>
             <div
               className={styles.dateWrapper}
               onClick={() => openDatePicker(checkoutRef)}
             >
               <input
+                id="hero-checkout"
                 ref={checkoutRef}
                 type="date"
                 className={styles.bookingInput}

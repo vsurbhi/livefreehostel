@@ -27,7 +27,7 @@ export default function Footer() {
 
           {/* LEFT: Contact */}
           <div className={styles.block}>
-            <h4>Contact</h4>
+            <h3>Contact</h3>
             <ul>
               <li><a href="mailto:reservation@livefreehostels.com"><Mail size={14} /> reservation@livefreehostels.com</a></li>
               <li><a href="tel:+919999020248"><Phone size={14} /> 9999020248</a></li>
@@ -36,7 +36,7 @@ export default function Footer() {
 
           {/* LEFT: Locations */}
           <div className={styles.block}>
-            <h4>Locations</h4>
+            <h3>Locations</h3>
             <ul>
               <li><Link to="/rishikesh"><MapPin size={14} /> Rishikesh</Link></li>
               <li><Link to="/varanasi"><MapPin size={14} /> Varanasi</Link></li>
@@ -46,7 +46,7 @@ export default function Footer() {
 
           {/* LEFT: Policies */}
           <div className={styles.block}>
-            <h4>Policies</h4>
+            <h3>Policies</h3>
             <ul>
               <li><Link to="/hostel-policy">Hostel Policy</Link></li>
               <li><Link to="/privacy-policy">Privacy Policy</Link></li>
@@ -58,7 +58,7 @@ export default function Footer() {
 
           {/* LEFT: Quick Links */}
           <div className={styles.block}>
-            <h4>Quick Links</h4>
+            <h3>Quick Links</h3>
             <ul>
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/groups">Groups</Link></li>

@@ -375,7 +375,7 @@
   display: block;
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--primary, #a8562e);
+  color: var(--primary-dark);
   margin-bottom: 8px;
 }
 
@@ -426,11 +426,11 @@
 }
 
 .navLink:hover {
-  color: var(--primary, #a8562e);
+  color: var(--primary-dark);
 }
 
 .navLinkActive {
-  color: var(--primary, #a8562e);
+  color: var(--primary-dark);
   font-weight: 700;
 }
 
@@ -462,7 +462,7 @@
 
 .navPillActive {
   background: var(--primary, #a8562e);
-  border-color: var(--primary, #a8562e);
+  border-color: var(--primary-dark);
   color: #fff;
 }
 
@@ -542,7 +542,7 @@
 
 .footerBtn {
   display: inline-block;
-  color: var(--primary, #a8562e);
+  color: var(--primary-dark);
   font-weight: 700;
   text-decoration: underline;
 }

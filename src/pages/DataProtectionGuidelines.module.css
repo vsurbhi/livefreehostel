@@ -24,7 +24,7 @@
   display: block;
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--primary);
+  color: var(--primary-dark);
   margin-bottom: 8px;
 }
 
@@ -75,11 +75,11 @@
 }
 
 .navLink:hover {
-  color: var(--primary);
+  color: var(--primary-dark);
 }
 
 .navLinkActive {
-  color: var(--primary);
+  color: var(--primary-dark);
   font-weight: 700;
 }
 
@@ -111,7 +111,7 @@
 
 .navPillActive {
   background: var(--primary);
-  border-color: var(--primary);
+  border-color: var(--primary-dark);
   color: #fff;
 }
 
@@ -191,7 +191,7 @@
 
 .footerBtn {
   display: inline-block;
-  color: var(--primary);
+  color: var(--primary-dark);
   font-weight: 700;
   text-decoration: underline;
 }

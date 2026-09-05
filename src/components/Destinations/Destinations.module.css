@@ -134,7 +134,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--primary-light);
+  color: var(--primary-dark);
   margin-bottom: 8px;
   display: block;
 }
