@@ -9,14 +9,14 @@ const SECTIONS = [
     id: 'overview',
     label: 'Overview',
     blocks: [
-      { type: 'p', text: "A privacy policy is required by law, and this policy only applies to Live Free Hostels — not to the websites of other companies, individuals, or organizations to whom we provide links on our website." },
+      { type: 'p', text: "A privacy policy is required by law, and this policy only applies to LiveFree Hostels — not to the websites of other companies, individuals, or organizations to whom we provide links on our website." },
     ],
   },
   {
     id: 'use-of-information',
     label: 'Use of Your Information',
     blocks: [
-      { type: 'p', text: "We collect your information for the safety of our users who use our platform and guests who book Live Free Hostel through our website or third-party platforms, to understand who we are accommodating at our properties and for the safety of our staff. Website user and guest data are also collected for statistical purposes." },
+      { type: 'p', text: "We collect your information for the safety of our users who use our platform and guests who book LiveFree Hostels through our website or third-party platforms, to understand who we are accommodating at our properties and for the safety of our staff. Website user and guest data are also collected for statistical purposes." },
       { type: 'p', text: "We also collect our guests' nationality, date of birth, and gender for statistical analysis purposes. When you visit our website, we may automatically log your IP address (the unique address which identifies your computer on the internet). We use IP addresses to help us manage our website and to collect broad demographic information for analytical use." },
       { type: 'p', text: "For reservations, we send guests confirmation emails and will therefore require your email address. Exceptions may occur if we need to contact previous guests in relation to posts or lost property." },
     ],
@@ -48,7 +48,7 @@ const SECTIONS = [
     label: 'Credit Card Data',
     blocks: [
       { type: 'p', text: "In order to guarantee reservations across all channels (telephone, website, OTA), we require a full 16-digit debit/credit card number, the name on the card, card type (we accept Visa, Mastercard, or Maestro), the three-digit security code, and the expiry date." },
-      { type: 'p', text: "Your debit/credit card details are used only to secure your booking, and Live Free Hostel will only debit the account if you do not follow our cancellation procedure. For details on cancellation policies, please refer to the Guest Policy." },
+      { type: 'p', text: "Your debit/credit card details are used only to secure your booking, and LiveFree Hostels will only debit the account if you do not follow our cancellation procedure. For details on cancellation policies, please refer to the Guest Policy." },
     ],
   },
   {
@@ -123,8 +123,8 @@ export default function LegalPage() {
       window.scrollTo({ top, behavior: 'smooth' })
     }
   }
-  const title = 'Privacy Policy | LiveFree Hostel'
-  const description = 'How LiveFree Hostel collects, uses, and protects your personal data when you book or visit our website.'
+  const title = 'Privacy Policy | LiveFree Hostels'
+  const description = 'How LiveFree Hostels collects, uses, and protects your personal data when you book or visit our website.'
   
 
   return (

@@ -69,13 +69,13 @@ export default function Hero() {
   return (
     <section className={styles.hero} id="home">
       <div className={styles.bg}>
-        <img src={heroImg} alt="LiveFree Hostel" className={styles.bgImg} />
+        <img src={heroImg} alt="LiveFree Hostels" className={styles.bgImg} />
       </div>
       <div className={styles.overlay} />
 
       <div className={styles.content}>
         <motion.span className={styles.eyebrow} {...fadeUp(0.1)}>
-          Live Free Hostel
+          LiveFree Hostels
         </motion.span>
 
         <motion.h1 className={styles.headline} {...fadeUp(0.22)}>

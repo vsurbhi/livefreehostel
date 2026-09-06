@@ -174,8 +174,8 @@ export default function TermsConditions() {
       window.scrollTo({ top, behavior: 'smooth' })
     }
   }
-  const title = 'Terms & Conditions | LiveFree Hostel'
-  const description = 	"Read the terms and conditions governing bookings, stays, and website usage at LiveFree Hostel. Understand guest policies, liability, and legal information."
+  const title = 'Terms & Conditions | LiveFree Hostels'
+  const description = 	"Read the terms and conditions governing bookings, stays, and website usage at LiveFree Hostels. Understand guest policies, liability, and legal information."
   
 
   return (

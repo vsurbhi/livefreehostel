@@ -175,7 +175,7 @@ export const AWARDS = [
     image: 'https://d2jqolc708g016.cloudfront.net/awards/award_11.webp',
     platform: "TripAdvisor Travellers' Choice",
     year: '2023',
-    property: 'Live Free Hostel · Rishikesh',
+    property: 'LiveFree Hostels · Rishikesh',
     theme: 'light',
   },
   {
@@ -183,7 +183,7 @@ export const AWARDS = [
     image: 'https://d2jqolc708g016.cloudfront.net/awards/award_12.webp',
     platform: 'Booking.com Review Award',
     year: '2023 — 8.5 / 10',
-    property: 'Live Free Hostel · Rishikesh',
+    property: 'LiveFree Hostels · Rishikesh',
     theme: 'blue',
   },
   {
@@ -191,7 +191,7 @@ export const AWARDS = [
     image: 'https://d2jqolc708g016.cloudfront.net/awards/award_13.webp',
     platform: 'Booking.com Review Award',
     year: '2023 — 8.7 / 10',
-    property: 'Live Free Hostel · Varanasi',
+    property: 'LiveFree Hostels · Varanasi',
     theme: 'blue',
   },
   {
@@ -199,7 +199,7 @@ export const AWARDS = [
     image: 'https://d2jqolc708g016.cloudfront.net/awards/award_14.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
-    property: 'Live Free Hostel Network',
+    property: 'LiveFree Hostels Network',
     theme: 'dark',
   },
   {
@@ -207,7 +207,7 @@ export const AWARDS = [
     image: 'https://d2jqolc708g016.cloudfront.net/awards/award_15.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
-    property: 'Live Free Hostel Network',
+    property: 'LiveFree Hostels Network',
     theme: 'dark',
   },
    {
@@ -215,7 +215,7 @@ export const AWARDS = [
     image: 'https://d2jqolc708g016.cloudfront.net/awards/award_16.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
-    property: 'Live Free Hostel Network',
+    property: 'LiveFree Hostels Network',
     theme: 'dark',
   },
    {
@@ -223,7 +223,7 @@ export const AWARDS = [
     image: 'https://d2jqolc708g016.cloudfront.net/awards/award_17.webp',
     platform: 'Hostelworld — Superb 9.2',
     year: 'Best Hostels India',
-    property: 'Live Free Hostel Network',
+    property: 'LiveFree Hostels Network',
     theme: 'dark',
   }
 ]
@@ -589,7 +589,7 @@ export const CITY_ITINERARY = {
     {
       day: 'Day 1 · Arrive & Explore',
       activities: [
-        'Check-in at Live Free Hostel',  // TODO: Update activities
+        'Check-in at LiveFree Hostels',  // TODO: Update activities
         'Local market Exploration - Ram Jhula & Laxman Jhula.',
         'Sunset Ganga aarti at Triveni Ghat/ Parmarth Niketan.',
       ],
@@ -647,7 +647,7 @@ export const CITY_ITINERARY = {
     {
       day: 'Day 1 · Ghats, Devotion & Street food',
       activities: [
-        'Check-in at Live Free Hostel',   // TODO: Update activities
+        'Check-in at LiveFree Hostels',   // TODO: Update activities
         'Grab local Kachori Sabzi and Jalebi at Chachi Ki Kachori near BHU.',
         'Explore Sankat Mochan Temple & BHU.',
         'Ghat walking tour from Assi ghat to Dashashwamedh ghat.',

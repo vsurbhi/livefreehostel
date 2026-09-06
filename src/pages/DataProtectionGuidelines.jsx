@@ -178,8 +178,8 @@ export default function DataProtectionGuidelines() {
       window.scrollTo({ top, behavior: 'smooth' })
     }
   }
-   const title = 'Data Protection Guidelines | LiveFree Hostel'
-  const description = 'How to spot fraudulent calls, emails, or payment requests claiming to be from LiveFree Hostel — and what our official communication channels actually look like.'
+   const title = 'Data Protection Guidelines | LiveFree Hostels'
+  const description = 'How to spot fraudulent calls, emails, or payment requests claiming to be from LiveFree Hostels — and what our official communication channels actually look like.'
   
   return (
     <>

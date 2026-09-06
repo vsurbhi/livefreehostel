@@ -20,11 +20,11 @@ export default function BlogPage({ filterFn, title, subtitle, limit }) {
   const displaySubtitle = subtitle || 'Travel guides, local tips & everything happening around our hostels in Rishikesh, Varanasi & Dehradun.'
 
     const seoTitle = cityParam
-    ? `${capitalize(cityParam)} Travel Blog | LiveFree Hostel`
-    : 'Travel Blog | LiveFree Hostel'
+    ? `${capitalize(cityParam)} Travel Blog | LiveFree Hostels`
+    : 'Travel Blog | LiveFree Hostels'
   const seoDescription = cityParam
-    ? `Travel guides and local tips for ${capitalize(cityParam)} from LiveFree Hostel.`
-    : 'Travel guides, local tips & stories from around LiveFree Hostel in Rishikesh, Varanasi & Dehradun.'
+    ? `Travel guides and local tips for ${capitalize(cityParam)} from LiveFree Hostels.`
+    : 'Travel guides, local tips & stories from around LiveFree Hostels in Rishikesh, Varanasi & Dehradun.'
   
   return (
     

@@ -93,7 +93,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link className={styles.logo} to="/" onClick={closeMenus}>
-            <img src={logoImg} alt="LiveFree Hostel" className={styles.logoImg} />
+            <img src={logoImg} alt="LiveFree Hostels" className={styles.logoImg} />
           </Link>
           {/* Desktop nav */}
           <nav className={styles.desktopNav} aria-label="Primary navigation">

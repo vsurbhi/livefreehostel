@@ -35,8 +35,8 @@ const moreStories = useMemo(() => getRandomPosts(moreStoriesPool, 3), [slug, cit
   return (
     <>
     <SEO
-        title={`${post.title} | LiveFree Hostel Blog`}
-        description={post.excerpt?.slice(0, 155) || `Read ${post.title} on the LiveFree Hostel blog.`}
+        title={`${post.title} | LiveFree Hostels Blog`}
+        description={post.excerpt?.slice(0, 155) || `Read ${post.title} on the LiveFree Hostels blog.`}
         path={`/blog/${post.slug}`}
         image={post.cover}
         type="article"

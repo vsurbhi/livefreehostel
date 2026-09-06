@@ -22,8 +22,8 @@ export default function ContactPage() {
     setTimeout(() => setSubmitted(false), 4000)
   }
 
-  const title = 'Contact Us | LiveFree Hostel'
-  const description = 'Get in touch with LiveFree Hostel for bookings, group stays, or questions about Rishikesh, Varanasi, and Dehradun properties.'
+  const title = 'Contact Us | LiveFree Hostels'
+  const description = 'Get in touch with LiveFree Hostels for bookings, group stays, or questions about Rishikesh, Varanasi, and Dehradun properties.'
  
   return (
     <>

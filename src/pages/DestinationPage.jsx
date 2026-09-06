@@ -53,7 +53,7 @@ const CITY_META = {
   rishikesh: {
     tagline: 'Uttarakhand - Land of Spirituality and Adventure',
     address: 'Laxman Jhula Rd, near Anand Dham, Tapovan, Rishikesh, Uttarakhand 249192',
-    about: [`Located in Tapovan, just 400 meters away from Laxman Jhula, Live Free Hostel perfectly blends high-energy adventure with mindful relaxation. Our expansive rooftop terrace offers panoramic views of the rolling green Himalayan foothills and the sacred Ganga River, serving as an idyllic backdrop for morning sunbathing or peaceful rooftop yoga classes.
+    about: [`Located in Tapovan, just 400 meters away from Laxman Jhula, LiveFree Hostels perfectly blends high-energy adventure with mindful relaxation. Our expansive rooftop terrace offers panoramic views of the rolling green Himalayan foothills and the sacred Ganga River, serving as an idyllic backdrop for morning sunbathing or peaceful rooftop yoga classes.
 Throughout our vibrant and colorful multi-story property, active common areas invite travelers to bond over guitar sessions, shared board games, or competitive foosball and table tennis tournaments. Choose from spacious, bright dorms designed with individual privacy curtains and power outlets, or retreat to comfortable private rooms with ensuite bathrooms after a long day out.
 As a preferred launchpad and trusted base camp for massive “India Hikes” trekking expeditions, our expertly trained team makes transitioning between work and play effortless. Whether you are sipping espresso at our ground-floor, in-house cafe or coordinating a white-water rafting trip from our travel desk, this hostel transforms your mountain escape into an immersive community experience.
 `,`Rishikesh offers backpackers a perfect mix of soul-stirring adventure, vibrant cafe culture, and spiritual depth along the sacred Ganga River. Travelers can experience white-water rafting, hike to hidden waterfalls, go on a Rajaji safari, practice yoga & meditation at peaceful ashrams, and connect in lively local cafes.
@@ -69,7 +69,7 @@ As a preferred launchpad and trusted base camp for massive “India Hikes” tre
     directions: {
       air: { label: 'By Air', icon: Plane, content: 'Jolly Grant Airport (DED), then taxi to Live Free Rishikesh (~45 mins).' },
       train: { label: 'By Train', icon: Train, content: 'Yog Nagri Railway Station, then a taxi or Auto to Tapovan (~20 mins).' },
-      road: { label: 'By Road', icon: Car, content: 'From Delhi: NH334 via Haridwar or Take Delhi- Dehradun expressway. GPS: Live Free Hostel, Rishikesh (~ 4-6 Hrs)' },
+      road: { label: 'By Road', icon: Car, content: 'From Delhi: NH334 via Haridwar or Take Delhi- Dehradun expressway. GPS: LiveFree Hostels, Rishikesh (~ 4-6 Hrs)' },
     },
     features: [
       { label: 'Wi-Fi', icon: Wifi },
@@ -89,7 +89,7 @@ As a preferred launchpad and trusted base camp for massive “India Hikes” tre
   dehradun: {
     tagline: 'Uttarakhand · Gateway to Himalayas',
     address: '88, Village Sinola, Malsi, Mussoorie Road, Dehradun, Uttarakhand 248009',
-    about: [`Located in a peaceful, tree-lined valley just minutes from the city's key transit lines, Live Free Hostel Dehradun serves as the ultimate gateway town launchpad and a productive work sanctuary. The absolute heart of our property is our expansive rooftop terrace café—a vibrant, active common area with beautiful, sweeping views of the surrounding green hills and shifting mountain mist. It is the perfect scenic backdrop where travellers, trekkers and remote professionals naturally gather to connect over fresh food, acoustic guitar strumming, or casual sundowner chats over a cup of coffee. This multi-functional rooftop café space seamlessly blend work, play, and community. Digital nomads can settle into quiet seating corners with stable Wi-Fi and plenty of accessible socket points, while others challenge new friends to high-energy table tennis or foosball matches, board games and casual poker nights. Accommodation options cater to every traveller’s preference, featuring clean, spacious, air-conditioned mixed and female-only dorms equipped with personal privacy curtains and secure storage lockers, alongside premium private rooms for peaceful downtime.
+    about: [`Located in a peaceful, tree-lined valley just minutes from the city's key transit lines, LiveFree Hostel Dehradun serves as the ultimate gateway town launchpad and a productive work sanctuary. The absolute heart of our property is our expansive rooftop terrace café—a vibrant, active common area with beautiful, sweeping views of the surrounding green hills and shifting mountain mist. It is the perfect scenic backdrop where travellers, trekkers and remote professionals naturally gather to connect over fresh food, acoustic guitar strumming, or casual sundowner chats over a cup of coffee. This multi-functional rooftop café space seamlessly blend work, play, and community. Digital nomads can settle into quiet seating corners with stable Wi-Fi and plenty of accessible socket points, while others challenge new friends to high-energy table tennis or foosball matches, board games and casual poker nights. Accommodation options cater to every traveller’s preference, featuring clean, spacious, air-conditioned mixed and female-only dorms equipped with personal privacy curtains and secure storage lockers, alongside premium private rooms for peaceful downtime.
 As a preferred transit launchpad and trusted base camp for massive Indiahikes trekking expeditions, our expertly trained hospitality team is uniquely equipped to manage group logistics. Whether you are having a meal at the rooftop café with your travel squad, swapping trail stories under the open sky, or getting insider route tips from our 24/7 reception desk, this hostel transforms your valley stopover into an immersive community experience that feels just like home.
 `,'Dehradun offers backpackers lush river caves, sulphur springs, and a vibrant café culture. Nestled in the Himalayan foothills, it provides easy access to mountain treks, historic colonial architecture, and serene Buddhist monasteries. It is the perfect hub for nature lovers, adventure seekers, and travellers exploring northern India.'],
     checkIn: 'from 13:00 until 23:59',
@@ -103,7 +103,7 @@ As a preferred transit launchpad and trusted base camp for massive Indiahikes tr
     directions: {
       air: { label: 'By Air', icon: Plane, content: 'Jolly Grant Airport (DED), then taxi to Live Free Dehradun (~60 mins).' },
       train: { label: 'By Train', icon: Train, content: 'Dehradun Railway Station, then a taxi or Auto to Live Free Dehradun (~25 mins).' },
-      road: { label: 'By Road', icon: Car, content: 'From Delhi: Take Delhi- Dehradun expressway. GPS: Live Free Hostel, Dehradun (~ 4 Hrs)' },
+      road: { label: 'By Road', icon: Car, content: 'From Delhi: Take Delhi- Dehradun expressway. GPS: LiveFree Hostels, Dehradun (~ 4 Hrs)' },
     },
     features: [
       { label: 'Wi-Fi', icon: Wifi },
@@ -123,7 +123,7 @@ As a preferred transit launchpad and trusted base camp for massive Indiahikes tr
   varanasi: {
     tagline: 'Uttar Pradesh · City of Light',
     address: 'Nagwa Rd, Dumraon Colony, near Assi Ghat, Varanasi, Uttar Pradesh 221005',
-    about: [`Located in Nagwa just 500 metres away from the iconic Assi Ghat, Live Free Hostel Varanasi perfectly blends deep cultural immersion with contemporary backpacker comfort. Our expansive rooftop terrace offers serene views of the sacred Ganga River and its sprawling landscape, serving as an idyllic backdrop for morning tea or peaceful yoga sessions before diving into the high-energy streets.
+    about: [`Located in Nagwa just 500 metres away from the iconic Assi Ghat, LiveFree Hostel Varanasi perfectly blends deep cultural immersion with contemporary backpacker comfort. Our expansive rooftop terrace offers serene views of the sacred Ganga River and its sprawling landscape, serving as an idyllic backdrop for morning tea or peaceful yoga sessions before diving into the high-energy streets.
 Throughout our vibrant colourful multi-story property, active common areas like our central indoor lounge invite travellers to bond over acoustic guitar sessions, shared board games, or competitive table tennis matches. Our lively open-air courtyard café acts as the social heartbeat of the property, where digital nomads and solo explorers network over reliable Wi-Fi, sip fresh espresso, 
 and enjoy pocket-friendly, home-style Indian comfort food. Choose from spacious, air-conditioned mixed or female-only dorms designed with sturdy metal bunk beds, individual privacy curtains, and multiple charging points, 
 or retreat to comfortable private rooms with ensuite bathrooms after a long day of heritage exploration.
@@ -141,9 +141,9 @@ Whether you are swapping travel stories with fellow backpackers, or coordinating
     mapSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5776986113897!2d83.00443047605633!3d25.284787728146224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e33ba110bfd13%3A0x16133790c1ae2c19!2sLive%20Free%20Hostel%20Varanasi!5e0!3m2!1sen!2sin!4v1779344741618!5m2!1sen!2sin',
     cancellationPolicy: 'Free cancellation up to 72 hours before check-in. After that, the first night is non-refundable. No-show will be charged the full amount.',
     directions: {
-      air: { label: 'By Air', icon: Plane, content: 'Lal Bahadur Shastri Airport (VNS), then taxi to Live Free Hostel Varanasi (~30 mins).' },
-      train: { label: 'By Train', icon: Train, content: 'Varanasi Junction, then auto/cab to Live Free Hostel (~20 mins).' },
-      road: { label: 'By Road', icon: Car, content: 'From Lucknow: NH30. From Allahabad: NH19. GPS: Live Free Hostel Varanasi.' },
+      air: { label: 'By Air', icon: Plane, content: 'Lal Bahadur Shastri Airport (VNS), then taxi to LiveFree Hostel Varanasi (~30 mins).' },
+      train: { label: 'By Train', icon: Train, content: 'Varanasi Junction, then auto/cab to LiveFree Hostels (~20 mins).' },
+      road: { label: 'By Road', icon: Car, content: 'From Lucknow: NH30. From Allahabad: NH19. GPS: LiveFree Hostel Varanasi.' },
     },
     features: [
       { label: 'Wi-Fi', icon: Wifi },
@@ -580,7 +580,7 @@ function HeroInfoSection({ dest, meta }) {
     <section style={{ padding: '44px 0 32px', background: '#fff' }}>
       <div className="container">
         <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 800, color: 'var(--text)', marginBottom: 10, lineHeight: 1.15 }}>
-          Live Free Hostel, {dest.name}
+          LiveFree Hostels, {dest.name}
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 20, color: '#888', fontSize: '0.92rem' }}>
           <MapPin size={15} style={{ color: 'var(--primary)', flexShrink: 0 }} />
@@ -862,7 +862,7 @@ function ReachUsSection({ meta, dest }) {
     <section style={{ padding: '64px 0', background: '#fff' }}>
       <div className="container">
         <h2 style={{ fontWeight: 800, fontSize: '1.4rem', marginBottom: 12, color: 'var(--text)' }}>How to Reach Us</h2>
-        <p style={{ color: '#999', fontSize: '0.92rem', marginBottom: 36 }}>Live Free Hostel, {dest.name} — and the best spots nearby.</p>
+        <p style={{ color: '#999', fontSize: '0.92rem', marginBottom: 36 }}>LiveFree Hostels, {dest.name} — and the best spots nearby.</p>
         <div style={{ position: 'relative', borderRadius: 16, overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.1)', marginBottom: 40, background: '#000' }}>
           <div className={styles.mapFrameWrap}>
             <iframe src={meta.mapSrc} width="100%" height="100%" style={{ border: 0, display: 'block' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title={`Live Free ${dest.name}`} />
@@ -870,7 +870,7 @@ function ReachUsSection({ meta, dest }) {
           <div className={styles.mapInfoCard} style={{ background: 'rgba(26,26,26,0.92)', backdropFilter: 'blur(4px)', borderRadius: 14, padding: '24px 26px', color: '#fff', boxShadow: '0 8px 32px rgba(0,0,0,0.5)', border: '1px solid rgba(255,255,255,0.08)' }}>
             {/* <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
               <MapPin size={18} style={{ color: 'var(--primary-light)', flexShrink: 0 }} />
-              <span style={{ fontWeight: 700, fontSize: '1rem' }}>Live Free Hostel</span>
+              <span style={{ fontWeight: 700, fontSize: '1rem' }}>LiveFree Hostels</span>
             </div> */}
             {/* <p style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.6, marginBottom: 20 }}>{meta.address}</p> */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8,height:150, }}>

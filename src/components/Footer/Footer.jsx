@@ -71,7 +71,7 @@ export default function Footer() {
 
           {/* RIGHT: Brand — logo + social */}
           <div className={styles.brand}>
-            <img src={logoImg} alt="Live Free Hostel" className={styles.logoImg} />
+            <img src={logoImg} alt="LiveFree Hostels" className={styles.logoImg} />
             <div className={styles.socialRow}>
               <a href="https://www.instagram.com/livefreehostels" target="_blank" rel="noreferrer" className={styles.socialBtn} aria-label="Instagram">
                 <Instagram size={16} />
@@ -95,7 +95,7 @@ export default function Footer() {
           <p className={styles.tagline}>
             Your <span>Home Away From Home</span>, anywhere in the world ✨
           </p>
-          <p className={styles.copy}>© {new Date().getFullYear()} Live Free Hostel. All rights reserved.</p>
+          <p className={styles.copy}>© {new Date().getFullYear()} LiveFree Hostels. All rights reserved.</p>
         </div>
       </div>
     </footer>

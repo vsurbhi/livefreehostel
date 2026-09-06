@@ -31,8 +31,8 @@ const COMPLIMENTARY = [
 
 export default function PetFriendlyPage() {
 
-   const title = 'Pet-Friendly Stays | LiveFree Hostel'
-  const description = 'Traveling with your dog or cat? See LiveFree Hostel\'s pet policy — room limits, house rules, and complimentary bed, bowls, and waste bags included.'
+   const title = 'Pet-Friendly Stays | LiveFree Hostels'
+  const description = 'Traveling with your dog or cat? See LiveFree Hostels\'s pet policy — room limits, house rules, and complimentary bed, bowls, and waste bags included.'
 
   return (
     <div style={{ background: '#fff', overflowX: 'hidden' }}>

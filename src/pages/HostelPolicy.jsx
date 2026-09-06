@@ -53,7 +53,7 @@ const SECTIONS = [
       { type: 'p', text: "In case of a group of 8 or more guests checking in together, the hostel requires a 100% non-refundable advance payment to be transferred to the hostel (bank account details or an online payment link are available on request — please email us) to confirm the booking. Normal booking and cancellation policies do not apply to group bookings of 8 or more guests." },
       { type: 'p', text: "If the group's behaviour is deemed unfit at the property, the Property Manager, upon subjective evaluation, retains the full right to take required action, which may also result in an on-spot cancellation without refunds." },
       { type: 'p', text: "Any group bookings which have not been informed and paid in advance, or have been made by several individuals/separate bookings to make it appear as though it is not a group, can be cancelled or denied at any time — in advance or on arrival." },
-      { type: 'p', text: "Live Free Hostel reserves the right to admission." },
+      { type: 'p', text: "LiveFree Hostels reserves the right to admission." },
     ],
   },
   {

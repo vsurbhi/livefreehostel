@@ -5,7 +5,7 @@ const DEFAULT_IMAGE = '/og-images/default.png'
 
 const propertyData = {
   '/rishikesh': {
-    name: 'Live Free Hostel Rishikesh',
+    name: 'LiveFree Hostel Rishikesh',
     street: 'Laxman Jhula Rd, near Anand Dham, Tapovan',
     city: 'Rishikesh',
     state: 'Uttarakhand',
@@ -23,7 +23,7 @@ const propertyData = {
   ],
 },
   '/varanasi': {
-    name: 'Live Free Hostel Varanasi',
+    name: 'LiveFree Hostel Varanasi',
     street: 'Nagwa Rd, Dumraon Colony',
     city: 'Varanasi',
     state: 'Uttar Pradesh',
@@ -41,7 +41,7 @@ const propertyData = {
   ],
   },
   '/dehradun': {
-    name: 'Live Free Hostel Dehradun',
+    name: 'LiveFree Hostel Dehradun',
     street: '88, Village Sinola, Malsi, Mussoorie Road',
     city: 'Dehradun',
     state: 'Uttarakhand',

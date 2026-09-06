@@ -56,8 +56,8 @@ export default function GroupsPage() {
 
   const labelStyle = { fontSize: '0.85rem', fontWeight: 700, color: 'var(--text)' }
   // helmet description
-  const title = 'Group & Trekking Bookings | LiveFree Hostel'
-  const description = 'Book group stays at LiveFree Hostel – official Indiahikes partner. Hostel for 50+ guests in Rishikesh, Varanasi & Dehradun. Custom meals, bonfire, rafting.'
+  const title = 'Group & Trekking Bookings | LiveFree Hostels'
+  const description = 'Book group stays at LiveFree Hostels – official Indiahikes partner. Hostel for 50+ guests in Rishikesh, Varanasi & Dehradun. Custom meals, bonfire, rafting.'
 
   return (
     <>
@@ -93,7 +93,7 @@ export default function GroupsPage() {
                 Why Book With Us?
               </h2>
               <p style={{ fontSize: '1.1rem', lineHeight: 1.8, color: 'var(--text-muted)', marginBottom: 32 }}>
-                Planning a trip for a large crowd? At Live Free Hostels, we make group travel seamless, budget-friendly, and incredibly fun. Whether you are leading a trekking expedition, a corporate retreat, or a university trip, our properties are perfectly equipped to serve as your ultimate base camp. 
+                Planning a trip for a large crowd? At LiveFree Hostels, we make group travel seamless, budget-friendly, and incredibly fun. Whether you are leading a trekking expedition, a corporate retreat, or a university trip, our properties are perfectly equipped to serve as your ultimate base camp. 
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
                 {[

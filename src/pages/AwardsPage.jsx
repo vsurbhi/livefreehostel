@@ -5,8 +5,8 @@ import CTABanner from '../components/CTABanner/CTABanner'
 
 
 export default function AwardsPage() {
-  const title = 'Awards & Recognition | LiveFree Hostel'
-  const description = 'Recognition and awards earned by LiveFree Hostel for hospitality across Rishikesh, Varanasi, and Dehradun.'
+  const title = 'Awards & Recognition | LiveFree Hostels'
+  const description = 'Recognition and awards earned by LiveFree Hostels for hospitality across Rishikesh, Varanasi, and Dehradun.'
   
   return (
     <>
