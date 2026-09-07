@@ -224,6 +224,6 @@
 
 /* ---------- LightBox (touch target polish) ---------- */
 @media (max-width: 560px) {
-  .lightboxNavBtn { width: 34px !important; height: 34px !important; }
+  .lightboxNavBtn { width: 44px !important; height: 44px !important; }
   .lightboxThumb { width: 60px !important; height: 60px !important; }
 }
