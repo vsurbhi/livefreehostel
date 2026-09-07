@@ -151,21 +151,21 @@ export const GUIDELINES = [
 export const TESTIMONIALS = [
   {
     stars: 5,
-    text: 'Absolutely stunning hostel! The service was impeccable and the community vibe is unmatched. Truly a 5‑star experience.',
-    author: 'Sarah Johnson',
-    country: 'Canada',
+    text: 'Really pleasant 4-night stay in Dehradun — clean rooms, fast Wi-Fi, and the rooftop café was a favourite. Staff were incredibly helpful, especially Gitika. Would definitely stay again!',
+    author: 'Pranjal',
+    country: 'Dehradun · Google Review',
   },
   {
     stars: 5,
-    text: 'Best hostel experience in India. The rooftop nights, friendly staff, and spotless spaces made my trip unforgettable.',
-    author: 'Rajesh Kumar',
-    country: 'India',
+    text: 'From the moment I arrived I felt welcomed. Clean, cozy rooms, warm staff, and food that was fresh and reasonably priced. This solo trip became truly special here.',
+    author: 'Tanya Rai',
+    country: 'Google Review',
   },
   {
     stars: 5,
-    text: 'I came for a weekend and stayed for two weeks. The community, the café, the views — everything is just perfect.',
-    author: 'Mia Schulz',
-    country: 'Germany',
+    text: 'Exceeded my expectations — clean rooms, friendly staff, mountain views, and a rooftop café with live music and games. The hostel dogs were adorable too. Highly recommended!',
+    author: 'Ankush Bhalla',
+    country: 'Rishikesh · Google Review',
   },
 ]
 
