@@ -85,7 +85,7 @@ export const DESTINATIONS = [
     tagline: 'The Perfect Getaway Town',
     desc: 'Nestled in the valley, our Dehradun property is the perfect place to explore the city and a Mussoorie stopover. Featuring AC rooms, Wi-Fi, social zones, and quiet nooks, it unites all travelers.',
     path: '/dehradun',
-    img: 'https://d2jqolc708g016.cloudfront.net/get_social_compressed/get+social/ec1769aa-d311-412a-97be-9d7bebdfca7f.webp+(1).jpg',
+    img: 'https://d2jqolc708g016.cloudfront.net/get_social_compressed/get%20social/dehradun-homepage-card.webp',
     color: '#fce4db',
     bookingUrl: 'https://book.livefreehostels.com/booking/book-rooms-livefreehosteldehradun',
     hotelCode: 'livefreehosteldehradun',
