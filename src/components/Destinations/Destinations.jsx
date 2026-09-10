@@ -2,7 +2,15 @@ import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import { DESTINATIONS } from '../../data/siteData'
+import { goToBooking } from '../../utils/booking'
 import styles from './Destinations.module.css'
+
+const getToday = () => new Date().toISOString().split('T')[0]
+const getTomorrow = () => {
+  const d = new Date()
+  d.setDate(d.getDate() + 1)
+  return d.toISOString().split('T')[0]
+}
 
 export default function Destinations() {
   const navigate = useNavigate()
@@ -56,7 +64,12 @@ export default function Destinations() {
                     className={styles.bookBtn}
                     onClick={(e) => {
                       e.stopPropagation()
-                      window.open(dest.bookingUrl, '_blank', 'noopener,noreferrer')
+                      goToBooking({
+                        bookingUrl: dest.bookingUrl,
+                        hotelCode: dest.hotelCode,
+                        checkin: getToday(),
+                        checkout: getTomorrow(),
+                      })
                     }}
                   >
                     Book Now
